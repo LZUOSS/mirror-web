@@ -37,7 +37,7 @@ jobs:
         with:
           submodules: true
 
-      - name: Prevent loading RubyGems from TUNA
+      - name: Set standard RubyGems source
         run: |
           sed -i "/^source/c source 'https://rubygems.org'" Gemfile
           sed -i '/remote:/s@remote: .*$@remote: https://rubygems.org@' Gemfile.lock
@@ -49,7 +49,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: tunathu/mirror-web
+          images: lzuoss/mirror-web
           labels: |
             org.opencontainers.image.title=mirror-web
             org.opencontainers.image.description=Build environment for the TUNA mirror website
@@ -73,7 +73,7 @@ jobs:
           file: Dockerfile.build
           platforms: ${{ matrix.runner.platform }}
           load: true
-          tags: tunathu/mirror-web:localtest
+          tags: lzuoss/mirror-web:localtest
           labels: ${{ steps.meta.outputs.labels }}
           annotations: ${{ steps.meta.outputs.annotations }}
           cache-from: type=gha,scope=mirror-web-${{ runner.arch }}
@@ -87,7 +87,7 @@ jobs:
             --tmpfs /data/.jekyll-cache \
             --tmpfs /data/node_modules:exec \
             --env VISUALIZER=1 \
-            tunathu/mirror-web:localtest \
+            lzuoss/mirror-web:localtest \
             bash -c "npm ci --include=dev && bundle exec jekyll build --future"
 
       - name: Upload site artifact
@@ -110,7 +110,7 @@ jobs:
           file: Dockerfile.build
           platforms: ${{ matrix.runner.platform }}
           push: ${{ github.event_name == 'push' }}
-          tags: tunathu/mirror-web
+          tags: lzuoss/mirror-web
           labels: ${{ steps.meta.outputs.labels }}
           annotations: ${{ steps.meta.outputs.annotations }}
           cache-from: type=gha,scope=mirror-web-${{ runner.arch }}
@@ -182,7 +182,7 @@ jobs:
           sources=()
 
           while IFS= read -r digest; do
-            sources+=("tunathu/mirror-web@sha256:$digest")
+            sources+=("lzuoss/mirror-web@sha256:$digest")
           done < <(find . -maxdepth 1 -type f -printf '%f\n' | sort)
 
           if [ "${#sources[@]}" -ne 2 ]; then
@@ -190,7 +190,7 @@ jobs:
             exit 1
           fi
 
-          docker buildx imagetools create -t "tunathu/mirror-web:$version" \
+          docker buildx imagetools create -t "lzuoss/mirror-web:$version" \
             --annotation "index:org.opencontainers.image.created=$created" \
             --annotation "index:org.opencontainers.image.description=Build environment for the TUNA mirror website" \
             --annotation "index:org.opencontainers.image.revision=${{ github.sha }}" \
@@ -203,7 +203,7 @@ jobs:
 
       - name: Inspect published image
         run: |
-          ref="tunathu/mirror-web:${{ steps.docker_tag.outputs.tag }}"
+          ref="lzuoss/mirror-web:${{ steps.docker_tag.outputs.tag }}"
           echo "## $ref" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           docker buildx imagetools inspect "$ref" | tee -a "$GITHUB_STEP_SUMMARY"
@@ -213,7 +213,7 @@ jobs:
 
           index_json="$(docker buildx imagetools inspect "$ref" --raw)"
           while IFS=$'\t' read -r platform digest; do
-            manifest_json="$(docker buildx imagetools inspect "tunathu/mirror-web@$digest" --raw)"
+            manifest_json="$(docker buildx imagetools inspect "lzuoss/mirror-web@$digest" --raw)"
             size_bytes="$(jq '[.layers[]?.size] | add // 0' <<< "$manifest_json")"
             size="$(numfmt --to=iec-i --suffix=B --format='%.1f' "$size_bytes")"
             printf '| `%s` | %s | `%s` |\n' "$platform" "$size" "$digest" \
