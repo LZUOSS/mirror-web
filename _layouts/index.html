@@ -51,7 +51,7 @@
 							</ul>
 							<div class="text-end"><a href="/news/"> more {% fa_svg fas.fa-angles-right %} </a></div>
 						</div>
-						<div class="thuhidden {%if site.issue%}col-lg-4{%endif%}">
+						<div class="lzuhidden {%if site.issue%}col-lg-4{%endif%}">
 							<h4> {% fa_svg fas.fa-link %} 域名选择 </h4>
 							<ul>
 								<li><a href="{{ site.url }}">{{ site.url }}</a> 自动选择 </li>
@@ -74,12 +74,10 @@
 							</div>
 						</div>
 						{% endunless %}
-						<div class="thuhidden {%if site.issue%}col-lg-3{%endif%}">
+						<div class="lzuhidden {%if site.issue%}col-lg-3{%endif%}">
 							<h4> {% fa_svg far.fa-envelope %} 联系我们 </h4>
 							<ul>
-								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/tuna/issues">https://github.com/tuna/issues</a></li>
-								<li><strong>发送邮件</strong> <br /> <a class="eib1gieB"></a></li>
-								<li><strong>在线交流</strong> <br /> <a href="https://web.libera.chat/#tuna"> #tuna at Libera.Chat </a></li>
+								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/LZUOSS/Mirror">https://github.com/LZUOSS/Mirror</a></li>
 							</ul>
 						</div>
 						<div {%if site.issue%}class="col-lg-2"{%endif%}>
@@ -90,13 +88,12 @@
 								<li><a href="/status/#server-status">服务器状态</a></li>
 								<li><a href="/status/#syncing-status">同步状态</a></li>
 								{% endunless %}
-								<li class="thuhidden"><a href="https://tuna.moe/">清华大学 TUNA 协会</a></li>
 								<li><a href="https://github.com/tuna/tunasync">镜像管理器源码</a></li>
 								<li><a href="https://github.com/tuna/tunasync-scripts">自定义镜像脚本</a></li>
 							</ul>
 						</div>
 						{% unless site.hide_mirrorz %}
-						<div class="thuhidden {%if site.issue%}col-lg-2{%endif%}">
+						<div class="lzuhidden {%if site.issue%}col-lg-2{%endif%}">
 							<h4> {% fa_svg fas.fa-paperclip %} 友情链接 </h4>
 							<ul>
 								<li><a href="{{ site.mirrorz_link }}">{{ site.mirrorz_desc }}</a></li>
