@@ -28,7 +28,7 @@ jobs:
         with:
           submodules: true
       -
-        name: Prevent from loading rubygems from TUNA
+        name: Set standard rubygems source
         run: |
           sed -i "/^source/c source 'https://rubygems.org'" Gemfile
           sed -i '/remote:/s@remote: .*$@remote: https://rubygems.org@' Gemfile.lock
@@ -76,7 +76,7 @@ jobs:
           context: .
           file: Dockerfile.build
           push: false
-          tags: tunathu/mirror-web:localtest
+          tags: lzuoss/mirror-web:localtest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/local-test-build-cache
           load: true
@@ -89,7 +89,7 @@ jobs:
             --tmpfs /data/.jekyll-cache \
             --tmpfs /data/node_modules:exec \
             --env VISUALIZER=1 \
-            tunathu/mirror-web:localtest \
+            lzuoss/mirror-web:localtest \
             bash -c "npm install rollup-plugin-visualizer && bundle exec jekyll build --future"
       -
         name: Upload Build Artifacts
@@ -111,7 +111,7 @@ jobs:
           context: .
           file: Dockerfile.build
           push: ${{ github.event_name == 'push' }}
-          tags: tunathu/mirror-web
+          tags: lzuoss/mirror-web
           cache-from: |
             type=local,src=/tmp/.buildx-cache
             type=local,src=/tmp/local-test-build-cache
@@ -179,13 +179,13 @@ jobs:
         name: Create manifest list and push
         working-directory: ${{ runner.temp }}/digests
         run: |
-          docker buildx imagetools create -t "tunathu/mirror-web:${{ steps.docker_tag.outputs.docker_tag }}" \
-            $(printf "tunathu/mirror-web@sha256:%s " $(ls .))
+          docker buildx imagetools create -t "lzuoss/mirror-web:${{ steps.docker_tag.outputs.docker_tag }}" \
+            $(printf "lzuoss/mirror-web@sha256:%s " $(ls .))
 
       - name: Inspect images
         working-directory: ${{ runner.temp }}/digests
         run: |
-          DOCKER_IMG="tunathu/mirror-web:${{ steps.docker_tag.outputs.docker_tag }}"
+          DOCKER_IMG="lzuoss/mirror-web:${{ steps.docker_tag.outputs.docker_tag }}"
           echo "## $DOCKER_IMG" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           docker buildx imagetools inspect "$DOCKER_IMG" | tee -a $GITHUB_STEP_SUMMARY
