@@ -1,8 +1,8 @@
-# TUNA 镜像站主页
+# LZU 镜像站主页
 
 注意：如果使用本项目搭建开源镜像站，**必须**：
 
-* 移除所有与清华大学和 TUNA 相关的内容，包括且不限于站名、logo 和各种文档中出现的所有相关文本和图形；
+* 移除所有与兰州大学和 LZU 相关的内容，包括且不限于站名、logo 和各种文档中出现的所有相关文本和图形；
 * 在网站首页恰当标注项目来源（`tuna/mirror-web`）；
 * 遵循 GPLv2 协议开放修改后的源代码；
 
@@ -25,9 +25,9 @@
 为正常运行，一些动态数据文件需要从镜像站下载：
 
 ```bash
-wget https://mirrors.tuna.tsinghua.edu.cn/static/tunasync.json -O static/tunasync.json
+wget https://mirrors.lzu.edu.cn/static/tunasync.json -O static/tunasync.json
 mkdir -p static/status
-wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/status/isoinfo.json
+wget https://mirrors.lzu.edu.cn/static/status/isoinfo.json -O static/status/isoinfo.json
 ```
 
 编译前，先安装 Ruby (>= 3.0) 和 Node.js (>= 18)，然后执行：
@@ -51,14 +51,14 @@ bundle exec jekyll serve --livereload # 实时预览
 可用以下命令构建（如依赖无变化，镜像无需重复构建）：
 
 ```bash
-docker build -t tunathu/mirror-web -f Dockerfile.build .
-docker pull tunathu/mirror-web # 或者直接拉取
+docker build -t lzuoss/mirror-web -f Dockerfile.build .
+docker pull lzuoss/mirror-web # 或者直接拉取
 ```
 
 构建时，仅需将本地目录挂载到容器中：
 
 ```bash
-docker run --rm -v /path/to/mirror-web:/data tunathu/mirror-web
+docker run --rm -v /path/to/mirror-web:/data lzuoss/mirror-web
 ```
 
 即可在 `/path/to/mirror-web/_site` 中得到编译结果。
@@ -161,7 +161,7 @@ docker run --rm -v /path/to/mirror-web:/data tunathu/mirror-web
 帮助文档统一通过 Zhelp 系统管理，源文件位于 `_helpz/` 目录。文档分为两个层级维护：
 
 * **通用文档**（`_helpz/global/`）：以 git submodule 方式引入 [mirrorz-org/mirrorz-docs](https://github.com/mirrorz-org/mirrorz-docs)，包含各镜像站通用的帮助内容。如果您的改动适用于所有 mirrorz 镜像站，请向该上游仓库提交 PR。
-* **本地文档**（`_helpz/local/`）：维护在本仓库内，用于存放站点特有的配置覆盖和文档。如果您的改动仅适用于 TUNA 镜像站，请向本仓库提交 PR。
+* **本地文档**（`_helpz/local/`）：维护在本仓库内，用于存放站点特有的配置覆盖和文档。如果您的改动仅适用于本站点，请向本仓库提交 PR。
 
 构建时，`_helpz/local/{page}/` 中的同名文件会覆盖 `_helpz/global/{page}/` 中的对应文件，因此本地文档可对通用文档进行定制化调整。
 

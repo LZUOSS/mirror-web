@@ -1,5 +1,5 @@
 GEM
-  remote: https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+  remote: https://rubygems.org/
   specs:
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
@@ -112,6 +112,9 @@ DEPENDENCIES
   jekyll-titles-from-headings (~> 0.5.3)
   vite_ruby (~> 3.2)
   webrick (~> 1.8)
+
+RUBY VERSION
+   ruby 3.0.7p220
 
 BUNDLED WITH
    2.4.22
