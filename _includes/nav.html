@@ -2,7 +2,7 @@
   <div class="container-fluid container-xl">
     <div class="navbar-header">
 			<a class="navbar-brand" href="/">
-				<span class="thuhidden">
+				<span class="lzuhidden">
 					{% if site.logo %}
 					<picture>
 						{% if site.issue %}
@@ -40,11 +40,7 @@
     <div class="{% unless page.legacy %}navbar-collapse collapse {% endunless %} justify-content-end" id="navbarNavDropdown">
       <ul class="nav navbar-nav" role="menubar">
         {% unless site.hide_navbar %}
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="{{ site.homelink }}">HOME</a></li>
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://tuna.moe/events/">EVENTS</a></li>
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://tuna.moe/blog/">BLOG</a></li>
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://tuna.moe/feed.xml">RSS</a></li>
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://podcast.tuna.moe/">PODCAST</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/">HOME</a></li>
         <li role="none" class="nav-item"><a role="menuitem" class="nav-link active" aria-checked="true" href="{{ site.url }}">MIRRORS</a></li>
         {% endunless %}
       </ul>
