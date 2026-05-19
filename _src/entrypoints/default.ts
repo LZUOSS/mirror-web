@@ -8,12 +8,11 @@ if (siteSuffix) {
     !document.location.hostname.endsWith(siteSuffix) &&
     !document.location.hostname.endsWith(siteSuffix + ".")
   ) {
-    document.title = document.title.replace(/(清华)|(tsinghua)|(tuna)/gi, "");
     document.body.classList.add("nonthu");
   }
 }
 
-const lei3Po8h = ["support", ["tuna", "tsinghua", "edu", "cn"].join(".")].join(
+const lei3Po8h = ["mirrors", ["lzu", "edu", "cn"].join(".")].join(
   "@",
 );
 Array.from(document.querySelectorAll("a.eib1gieB")).forEach((el) => {
