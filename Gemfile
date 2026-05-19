@@ -1,4 +1,4 @@
-source 'https://mirrors.tuna.tsinghua.edu.cn/rubygems/'
+source 'https://rubygems.org/'
 
 ruby ">= 2.6"
 
