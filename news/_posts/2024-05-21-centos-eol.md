@@ -1,6 +1,6 @@
 ---
 slug: centos-eol
-layout: post
+layout: news
 title: CentOS 仓库即将停止服务
 author: Yuan Tan
 date: 2024-05-21

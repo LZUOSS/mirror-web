@@ -52,12 +52,12 @@ jobs:
           images: lzuoss/mirror-web
           labels: |
             org.opencontainers.image.title=mirror-web
-            org.opencontainers.image.description=Build environment for the TUNA mirror website
-            org.opencontainers.image.vendor=Tsinghua University TUNA Association
+            org.opencontainers.image.description=Build environment for the LZU mirror website
+            org.opencontainers.image.vendor=Lanzhou University Open Source Society
           annotations: |
             org.opencontainers.image.title=mirror-web
-            org.opencontainers.image.description=Build environment for the TUNA mirror website
-            org.opencontainers.image.vendor=Tsinghua University TUNA Association
+            org.opencontainers.image.description=Build environment for the LZU mirror website
+            org.opencontainers.image.vendor=Lanzhou University Open Source Society
 
       - name: Login to DockerHub
         uses: docker/login-action@v4
@@ -192,12 +192,12 @@ jobs:
 
           docker buildx imagetools create -t "lzuoss/mirror-web:$version" \
             --annotation "index:org.opencontainers.image.created=$created" \
-            --annotation "index:org.opencontainers.image.description=Build environment for the TUNA mirror website" \
+            --annotation "index:org.opencontainers.image.description=Build environment for the LZU mirror website" \
             --annotation "index:org.opencontainers.image.revision=${{ github.sha }}" \
             --annotation "index:org.opencontainers.image.source=$source_url" \
             --annotation "index:org.opencontainers.image.title=mirror-web" \
             --annotation "index:org.opencontainers.image.url=$source_url" \
-            --annotation "index:org.opencontainers.image.vendor=Tsinghua University TUNA Association" \
+            --annotation "index:org.opencontainers.image.vendor=Lanzhou University Open Source Society" \
             --annotation "index:org.opencontainers.image.version=$version" \
             "${sources[@]}"
 

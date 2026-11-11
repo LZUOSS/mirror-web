@@ -1,6 +1,6 @@
 ---
 slug: change-frontend
-layout: post
+layout: news
 title: 关于更换镜像站前端的通知
 author: Yuan
 date: 2024-01-22
