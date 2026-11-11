@@ -101,6 +101,8 @@ mirror_desc:
     desc: Oracle 的开源的 x86 架构虚拟机
 
 
+new_mirrors: []
+
 unlisted_mirrors:
   - link_to: 'sourceware'
     last_update: '-'
