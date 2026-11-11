@@ -1,0 +1,1 @@
+const e={};export default e;e.legacyIndexRender=e.fancyIndexBeforeRender=e.fancyIndexAfterRender=void 0;import n from"./legacy_index.njs";e.legacyIndexRender=n.legacyIndexRender;import d from"./fancy_index.njs";e.fancyIndexAfterRender=d.fancyIndexAfterRender,e.fancyIndexBeforeRender=d.fancyIndexBeforeRender;import"./markup.njs";
