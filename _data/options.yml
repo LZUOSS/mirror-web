@@ -107,6 +107,8 @@ mirror_desc:
     desc: OpenJDK 的二进制发行归档
   - name: opensuse
     desc: openSUSE 的安装镜像和官方软件包仓库
+  - name: opensuse-ports
+    desc: openSUSE 移植架构的软件包和安装镜像
   - name: openwrt
     desc: OpenWrt release 固件与软件包
   - name: pypi

@@ -1,0 +1,7 @@
+_: openSUSE Ports 使用帮助
+title: openSUSE Ports
+summary: openSUSE 移植架构的软件包和安装镜像
+block:
+- index
+mirrorid: opensuse-ports
+path: opensuse/ports

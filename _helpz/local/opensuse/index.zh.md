@@ -18,6 +18,8 @@ openSUSE Leap、Tumbleweed、Slowroll 的软件包和介质。
 
 安装介质位于对应发行版和架构目录中的 `iso/`。
 
+上游仓库的 URL 路径以 `/ports/` 开头时，参见 [openSUSE Ports](../opensuse-ports/)。
+
 ## 相关文档
 
 [openSUSE 软件源文档](https://en.opensuse.org/Package_repositories)
