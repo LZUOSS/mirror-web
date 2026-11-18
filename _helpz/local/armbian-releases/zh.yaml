@@ -1,0 +1,6 @@
+_: Armbian 镜像下载帮助
+title: Armbian 镜像
+summary: Armbian 系统安装镜像
+block:
+- index
+mirrorz_id: armbian-releases

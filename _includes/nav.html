@@ -29,7 +29,7 @@
 						{% endunless %}
 					</picture>
 					{% endif %}
-					{{ site.school }}</span>开源软件镜像站
+          {{ site.school }}</span>{{ site.title | remove_first: site.school }}
 			</a>
     </div>
 		{% unless page.legacy %}
@@ -40,8 +40,6 @@
     <div class="{% unless page.legacy %}navbar-collapse collapse {% endunless %} justify-content-end" id="navbarNavDropdown">
       <ul class="nav navbar-nav" role="menubar">
         {% unless site.hide_navbar %}
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://lzuoss.github.io/website-pages/">HOME</a></li>
-        <li role="none" class="nav-item"><a role="menuitem" class="nav-link active" aria-checked="true" href="{{ site.url }}">MIRRORS</a></li>
         {% endunless %}
       </ul>
     </div><!--/.nav-collapse -->

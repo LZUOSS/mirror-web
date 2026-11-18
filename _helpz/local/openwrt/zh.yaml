@@ -1,0 +1,6 @@
+_: OpenWrt 使用帮助
+title: OpenWrt
+summary: OpenWrt release 固件与软件包
+block:
+- index
+mirrorz_id: openwrt

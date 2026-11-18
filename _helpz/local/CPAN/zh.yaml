@@ -1,0 +1,6 @@
+_: CPAN 使用帮助
+title: CPAN
+summary: Perl 模块及其源代码归档
+block:
+- index
+mirrorz_id: CPAN

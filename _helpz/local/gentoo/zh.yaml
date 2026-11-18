@@ -1,0 +1,6 @@
+_: Gentoo 使用帮助
+title: Gentoo
+summary: Gentoo distfiles、stage 归档和系统镜像
+block:
+- index
+mirrorz_id: gentoo

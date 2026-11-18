@@ -1,0 +1,6 @@
+_: Debian 安全更新 使用帮助
+title: Debian 安全更新
+summary: Debian 的安全更新软件包
+block:
+- index
+mirrorz_id: debian-security

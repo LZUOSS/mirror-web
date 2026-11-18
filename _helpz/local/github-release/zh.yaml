@@ -1,0 +1,6 @@
+_: GitHub Release 使用帮助
+title: GitHub Release
+summary: 选定 GitHub 项目的发行附件
+block:
+- index
+mirrorz_id: github-release

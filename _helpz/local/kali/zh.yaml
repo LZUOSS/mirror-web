@@ -1,0 +1,6 @@
+_: Kali Linux 使用帮助
+title: Kali Linux
+summary: Kali Linux 软件包仓库
+block:
+- index
+mirrorz_id: kali

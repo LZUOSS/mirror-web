@@ -1,0 +1,6 @@
+_: CRAN 使用帮助
+title: CRAN
+summary: R 软件、扩展包和源码
+block:
+- index
+mirrorz_id: CRAN

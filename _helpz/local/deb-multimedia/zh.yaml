@@ -1,2 +1,8 @@
+_: Deb Multimedia 使用帮助
+title: Deb Multimedia
+summary: Debian 的第三方多媒体软件包
+block:
+- index
+path: debian-multimedia
 mirrorid: debian-multimedia
-permalink: debian-multimedia
+mirrorz_id: deb-multimedia

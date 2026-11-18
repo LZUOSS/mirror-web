@@ -1,0 +1,6 @@
+_: Raspberry Pi 软件源 使用帮助
+title: Raspberry Pi 软件源
+summary: Raspberry Pi 的固件、内核和附加软件包
+block:
+- index
+mirrorz_id: raspberrypi

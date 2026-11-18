@@ -1,0 +1,6 @@
+_: GNU 使用帮助
+title: GNU
+summary: GNU 项目的发行源码和文档
+block:
+- index
+mirrorz_id: gnu

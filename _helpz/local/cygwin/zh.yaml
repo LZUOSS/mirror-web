@@ -1,0 +1,6 @@
+_: Cygwin 使用帮助
+title: Cygwin
+summary: Cygwin 安装程序使用的软件包
+block:
+- index
+mirrorz_id: cygwin

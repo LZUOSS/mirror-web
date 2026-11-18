@@ -1,0 +1,6 @@
+_: Arch Linux CN 使用帮助
+title: Arch Linux CN
+summary: Arch Linux CN 软件包和相关系统文件
+block:
+- index
+mirrorz_id: archlinuxcn

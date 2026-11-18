@@ -529,6 +529,14 @@
   margin-bottom: 40px;
 }
 
+#help-index {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  #help-search {
+    max-width: 38rem;
+  }
+}
+
 .form-floating {
   & > .form-control,
   & > .form-select {

@@ -211,7 +211,10 @@ function renderTemplate(tmpl, globalVars, zconf, inputVars, lang) {
 
 function genGlobalVars(site, zconf) {
   const path =
-    zconf.git || zconf.name.endsWith(".git") ? `git/${zconf.name}` : zconf.name;
+    zconf.path ||
+    (zconf.git || zconf.name.endsWith(".git")
+      ? `git/${zconf.name}`
+      : zconf.name);
   return {
     scheme: {
       _: "是否使用 HTTPS",

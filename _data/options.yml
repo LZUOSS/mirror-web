@@ -7,6 +7,8 @@ mirror_desc:
     desc: R 语言的可执行文件、源代码和说明文件，也收录了各种用户撰写的软件包
   - name: CTAN
     desc: TeX 的各种发行版、软件包和文档
+  - name: almalinux
+    desc: AlmaLinux 安装镜像及 BaseOS、AppStream 等软件包
   - name: alpine
     desc: Alpine Linux 的安装镜像和官方软件包仓库
   - name: anaconda
@@ -21,12 +23,24 @@ mirror_desc:
     desc: 用于 ARM 平台的 Arch Linux 镜像和软件包仓库
   - name: archlinuxcn
     desc: 由 Arch Linux 中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等
+  - name: archriscv
+    desc: Arch Linux RISC-V 软件包和相关系统文件
+  - name: armbian
+    desc: Armbian 系统的软件包仓库
   - name: blackarch
     desc: 用于安全评估的基于 Arch Linux 的轻量级发行版
+  - name: bmclapi
+    desc: Minecraft 相关依赖文件目录
+  - name: buildroot
+    desc: Buildroot 构建过程使用的上游源码归档
+  - name: buildroot-pkgs
+    desc: 按目标架构分类的本站构建文件
   - name: centos
     desc: CentOS 的安装镜像和官方软件包仓库
   - name: centos-altarch
     desc: CentOS 额外平台的安装镜像和官方软件包仓库
+  - name: centos-stream
+    desc: CentOS Stream 软件包与安装文件
   - name: centos-vault
     desc: 为旧版本 CentOS 提供服务的软件包仓库
   - name: cygwin
@@ -39,6 +53,8 @@ mirror_desc:
     desc: Debian Linux 第三方多媒体软件源
   - name: debian-nonfree
     desc: Debian Linux 的非自由软件包仓库
+  - name: debian-ports
+    desc: Debian 非正式移植架构的软件包
   - name: debian-security
     desc: Debian Linux 的安全更新
   - name: deepin
@@ -55,6 +71,8 @@ mirror_desc:
     desc: Fedora Linux 的安装镜像和官方软件包仓库
   - name: fedora-altarch
     desc: Fedora Linux 额外平台的安装镜像和官方软件包仓库
+  - name: firefox
+    desc: Firefox 桌面版及 Android 相关下载文件
   - name: gentoo
     desc: Gentoo Linux 的 Stage 3 镜像
   - name: gentoo-portage
@@ -69,6 +87,8 @@ mirror_desc:
     desc: GNU 项目的软件包（源代码、文档和部分平台的二进制文件）
   - name: homebrew-bottles
     desc: 预编译的 Homebrew 软件包
+  - name: jellyfin
+    desc: Jellyfin 服务端、客户端及相关发行文件
   - name: kali
     desc: Kali Linux 的官方软件包仓库
   - name: kali-images
@@ -77,16 +97,32 @@ mirror_desc:
     desc: 各个版本的 Linux 内核源代码压缩包和补丁
   - name: loongson
     desc: 用于龙芯电脑的软件包
+  - name: lzuoss
+    desc: 兰州大学开源社区维护的自有文件
   - name: manjaro
     desc: Manjaro Linux 的官方软件源
   - name: openeuler
     desc: openEuler 开源服务器操作系统
+  - name: openjdk
+    desc: OpenJDK 的二进制发行归档
   - name: opensuse
     desc: openSUSE 的安装镜像和官方软件包仓库
+  - name: openwrt
+    desc: OpenWrt release 固件与软件包
   - name: pypi
     desc: Python 软件包索引源
+  - name: radxa-deb
+    desc: Radxa 开发板的 DEB 软件包
+  - name: raspberry-pi-os-images
+    desc: Raspberry Pi OS 和相关设备的系统镜像
+  - name: raspberrypi
+    desc: Raspberry Pi 的固件、内核和附加软件包
+  - name: rocky
+    desc: Rocky Linux 安装镜像及 BaseOS、AppStream 等软件包
   - name: rpmfusion
     desc: RPM Fusion 提供了一些 Fedora Project 和 Red Hat 不包含的软件
+  - name: tailscale
+    desc: Tailscale stable 的 Debian、Ubuntu 软件包
   - name: ubuntu
     desc: 流行的 Linux 发行版 Ubuntu 的安装镜像和官方软件包仓库
   - name: ubuntu-cdimage
@@ -97,9 +133,16 @@ mirror_desc:
     desc: armhf, arm64 以及 powerpc 等平台的 Ubuntu 软件仓库
   - name: ubuntu-releases
     desc: 包含近几年发行的 Ubuntu 的镜像
+  - name: ubuntukylin
+    desc: 优麒麟附加软件包仓库
+  - name: ubuntukylin-cdimage
+    desc: 优麒麟各版本的系统安装文件
   - name: virtualbox
     desc: Oracle 的开源的 x86 架构虚拟机
-
+  - name: wepe
+    desc: 微 PE 工具箱的发布安装文件
+  - name: zerotier
+    desc: ZeroTier 的 DEB、RPM 及独立发行文件
 
 new_mirrors: []
 

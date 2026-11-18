@@ -1,0 +1,6 @@
+_: Debian 安装镜像 使用帮助
+title: Debian 安装镜像
+summary: Debian 官方安装 ISO 和 Live 镜像
+block:
+- index
+mirrorz_id: debian-cd

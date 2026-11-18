@@ -1,0 +1,6 @@
+_: RPM Fusion 使用帮助
+title: RPM Fusion
+summary: Fedora 和 Enterprise Linux 的 free、nonfree 附加包
+block:
+- index
+mirrorz_id: rpmfusion

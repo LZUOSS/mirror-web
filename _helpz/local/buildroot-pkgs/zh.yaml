@@ -1,0 +1,5 @@
+_: Buildroot 构建文件 使用帮助
+title: Buildroot 构建文件
+summary: 按目标架构分类的本站构建文件
+block:
+- index
