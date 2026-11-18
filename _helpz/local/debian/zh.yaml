@@ -1,0 +1,6 @@
+_: Debian 使用帮助
+title: Debian
+summary: Debian 软件包及更新仓库
+block:
+- index
+mirrorz_id: debian

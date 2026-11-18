@@ -1,0 +1,6 @@
+_: CentOS Stream 使用帮助
+title: CentOS Stream
+summary: CentOS Stream 软件包与安装文件
+block:
+- index
+mirrorz_id: centos-stream

@@ -1,4 +1,6 @@
-_: EPEL 软件仓库
+_: EPEL 使用帮助
+title: EPEL
+summary: EPEL 的 Enterprise Linux 附加软件包
 block:
-- intro
-- usage
+- index
+mirrorz_id: epel

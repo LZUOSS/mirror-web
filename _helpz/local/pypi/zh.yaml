@@ -1,2 +1,6 @@
+_: PyPI 使用帮助
+title: PyPI
+summary: Python 软件包索引及发行文件
 block:
-- pypi
+- index
+mirrorz_id: pypi

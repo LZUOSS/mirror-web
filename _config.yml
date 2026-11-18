@@ -1,12 +1,11 @@
 # Site settings
 
 title: 兰州大学开源社区镜像站
-# title: 北京外国语大学开源软件镜像站
 school: 兰州大学
-# school: 北京外国语大学
 brand: Lanzhou University Open Source Mirror
 operator: 兰州大学开源社区
 author: Lanzhou University Open Source Society
+contact_email: oss@lzu.edu.cn
 desc: 兰州大学开源社区镜像站，致力于为用户提供高质量的开源软件镜像、Linux 镜像源服务。
 # operator: 北外信息技术中心
 logo: false
@@ -18,7 +17,7 @@ url: "https://mirrors.lzu.edu.cn"
 hostname: "mirrors.lzu.edu.cn"
 urlv4: "https://mirror4.lzu.edu.cn"
 urlv6: "https://mirror6.lzu.edu.cn"
-homelink: "https://mirrors.lzu.edu.cn"
+homelink: "https://lzuoss.github.io/website-pages/"
 hide_navbar: false
 hide_download: false
 hide_server_status: false

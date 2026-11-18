@@ -1,14 +1,7 @@
-import {
-  hide_mirrorz as HideMirrorZ,
-  hostname as SiteHostname,
-  mirrorz_help_link as MirrorzHelpLink,
-} from "virtual:jekyll-config";
-import { options as globalOptions } from "virtual:jekyll-data";
 import hljs from "../lib/hljs";
 import HoganRuntime from "hogan.js/lib/template";
 import { ref } from "@vue/reactivity";
 import { watchEffect } from "@vue/runtime-core";
-import { TUNASYNC_JSON_PATH } from "../lib/consts";
 import "./default";
 import "../styles/help.scss";
 import { ZInputOutput } from "../lib/helpz-types";
@@ -27,35 +20,6 @@ if (!zhelpTmplsElem) {
   throw new Error("zhelp-tmpls element not found");
 }
 
-fetch(TUNASYNC_JSON_PATH)
-  .then((resp) => resp.json())
-  .then((statusData) => {
-    // remove help items for disabled/removed mirrors
-    let availableMirrorIds = new Set(statusData.map((x) => x.name));
-    globalOptions.unlisted_mirrors.forEach((elem) => {
-      availableMirrorIds.add(elem.name);
-    });
-    if (!availableMirrorIds.has(mirrorId)) {
-      if (HideMirrorZ) {
-        location.href = "/404-help-hidden.html"; // this will break 404 issue submission
-      } else {
-        location.href = MirrorzHelpLink + mirrorId; // TODO: convert this to mirrorz cname
-      }
-    }
-
-    Array.from(
-      document.querySelectorAll('option[id^="toc-"],li[id^="toc-"]'),
-    ).forEach((elem) => {
-      if (
-        elem.id.startsWith("toc-") &&
-        !availableMirrorIds.has(elem.id.slice(4))
-      ) {
-        elem.remove();
-      }
-    });
-  });
-
-const mirrorId = zhelpTmplsElem["zhelp-name"] as string;
 const ztmpls = zhelpTmplsElem["zhelp-tmpls"] as [any];
 const tmplData = ztmpls.map((x) => ref({} as Record<string, ZInputOutput>));
 const globalData = ref({} as Record<string, ZInputOutput>);

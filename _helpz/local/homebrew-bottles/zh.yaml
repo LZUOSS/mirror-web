@@ -1,0 +1,6 @@
+_: Homebrew Bottles 使用帮助
+title: Homebrew Bottles
+summary: Homebrew 预编译软件包和 JSON API
+block:
+- index
+mirrorz_id: homebrew-bottles

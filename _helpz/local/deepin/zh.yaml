@@ -1,0 +1,5 @@
+_: deepin 软件源 使用帮助
+title: deepin 软件源
+summary: deepin 软件包仓库
+block:
+- index

@@ -1,0 +1,6 @@
+_: CentOS Vault 使用帮助
+title: CentOS Vault
+summary: CentOS 历史版本归档
+block:
+- index
+mirrorz_id: centos-vault

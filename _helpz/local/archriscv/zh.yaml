@@ -1,0 +1,6 @@
+_: Arch Linux RISC-V 使用帮助
+title: Arch Linux RISC-V
+summary: Arch Linux RISC-V 软件包和相关系统文件
+block:
+- index
+mirrorz_id: archriscv

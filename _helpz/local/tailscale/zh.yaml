@@ -1,0 +1,5 @@
+_: Tailscale 使用帮助
+title: Tailscale
+summary: Tailscale stable 的 Debian、Ubuntu 软件包
+block:
+- index

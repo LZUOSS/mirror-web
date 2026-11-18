@@ -1,3 +1,6 @@
+_: Arch Linux 使用帮助
+title: Arch Linux
+summary: Arch Linux 软件包和相关系统文件
 block:
-- intro
-- usage
+- index
+mirrorz_id: archlinux

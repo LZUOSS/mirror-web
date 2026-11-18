@@ -1,0 +1,6 @@
+_: Ubuntu Cloud Images 使用帮助
+title: Ubuntu Cloud Images
+summary: 用于虚拟机和云平台的 Ubuntu 预安装磁盘镜像
+block:
+- index
+mirrorz_id: ubuntu-cloud-images

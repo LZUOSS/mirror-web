@@ -1,0 +1,6 @@
+_: BlackArch Linux 使用帮助
+title: BlackArch Linux
+summary: BlackArch Linux 软件包和相关系统文件
+block:
+- index
+mirrorz_id: blackarch

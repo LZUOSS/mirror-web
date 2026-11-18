@@ -13,7 +13,7 @@
 					{% if site.issue %}
 					<div class="col-{% if page.legacy %}xs{% else %}lg{% endif %}-12 table-responsive">
 						<div class="alert text-center" id="cover-alert">
-							<h1>{{ site.school }}开源软件镜像站</h1>
+              <h1>{{ site.title }}</h1>
 							<h3>暂时无法提供服务</h3>
 							<div class="text-end">
 								<img src="/static/img/candle.jpg"
@@ -78,6 +78,9 @@
 							<h4> {% fa_svg far.fa-envelope %} 联系我们 </h4>
 							<ul>
 								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/LZUOSS/Mirror">https://github.com/LZUOSS/Mirror</a></li>
+                {% if site.contact_email %}
+                <li><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></li>
+                {% endif %}
 							</ul>
 						</div>
 						<div {%if site.issue%}class="col-lg-2"{%endif%}>

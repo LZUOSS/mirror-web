@@ -1,0 +1,6 @@
+_: Fedora 使用帮助
+title: Fedora
+summary: Fedora 主发行仓库的软件包、更新和安装介质
+block:
+- index
+mirrorz_id: fedora

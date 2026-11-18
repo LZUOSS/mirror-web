@@ -1,15 +1,35 @@
 ---
 permalink: /help/
+jsEntry: helpIndex
 ---
 <!DOCTYPE html>
-<html>
-<script>
-{% assign first_help = site["help"] | sort: 'zconf.name' | first %}
-var redirect_to = window.location.protocol + "//" + window.location.host + "{{first_help.url}}";
-window.location = redirect_to;
-</script>
-
+<html lang="zh-Hans">
+{% include head.html cattitle="使用帮助" %}
+<body>
+  {% include nav.html %}
+  <main class="container" id="help-index">
+    <h1>使用帮助</h1>
+    <p class="text-body-secondary">查找软件源配置、安装镜像和文件下载方法。</p>
+    <label for="help-search" class="form-label">搜索仓库</label>
+    <input id="help-search" class="form-control mb-4" type="search" placeholder="输入名称或用途，如 Ubuntu、Python、安装镜像" autocomplete="off" aria-controls="help-entries">
+    <div class="table-responsive">
+      <table class="table table-hover align-middle">
+        <thead><tr><th scope="col">仓库</th><th scope="col">用途</th><th scope="col">帮助</th></tr></thead>
+        <tbody id="help-entries">
+          {% assign helps = site.help | sort: 'zconf.name' %}
+          {% for help in helps %}
+          <tr data-help-entry data-help-keywords="{{ help.zconf.mirrorid | default: help.zconf.name | escape }} {{ help.zconf.name | escape }}">
+            <th scope="row"><a href="{{ help.url }}">{{ help.zconf.title | default: help.zconf.name }}</a></th>
+            <td>{{ help.zconf.summary }}</td>
+            <td><div class="d-flex flex-wrap gap-2"><a class="text-nowrap" href="{{ help.url }}">本站帮助</a>{% if help.zconf.mirrorz_id and site.hide_mirrorz != true %}<a class="text-nowrap" href="{{ site.mirrorz_help_link }}{{ help.zconf.mirrorz_id }}/">MirrorZ ↗</a>{% endif %}</div></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p id="help-empty" class="text-body-secondary" hidden>未找到匹配的仓库，请更换名称或关键词。</p>
+    <p class="text-body-secondary" id="help-count" aria-live="polite"></p>
+  </main>
+  {% include footer.html %}
+</body>
 </html>
-<!--
-vim: ts=2 sts=2 sw=2 noexpandtab
--->

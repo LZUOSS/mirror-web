@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-4 {% if page.legacy %}col-4{% else %}col-12{% endif %}">
         <p class="lzuhidden">本站由{{ site.operator }}支持创办并维护。</p>
-        <p>本站相关源码可在 <a href="https://github.com/tuna/tunasync"><em>这里(镜像管理器)</em></a> 和 <a href="https://github.com/tuna/mirror-web"><em>这里(镜像站网页)</em></a> 获取。</p>
+        <p>镜像管理器使用 <a href="https://github.com/tuna/tunasync">tunasync</a>。本站网页基于 <a href="https://github.com/tuna/mirror-web">tuna/mirror-web</a>，源码见 <a href="https://github.com/LZUOSS/mirror-web">LZUOSS/mirror-web</a>。</p>
         <p class="lzuhidden">根据相关法律法规，本站不对欧盟用户提供服务。</p>
         {% if site.footnote %}
         <p class="lzuhidden">{{ site.footnote }}</p>
@@ -14,6 +14,11 @@
         <h4 class="mt-0">Contact Us</h4>
         <div class="lzuhidden">
           <ul class="social">
+            {% if site.contact_email %}
+            <li>
+              <a href="mailto:{{ site.contact_email }}">{% fa_svg far.fa-envelope %} {{ site.contact_email }}</a>
+            </li>
+            {% endif %}
             <li>
             <a href="https://github.com/LZUOSS/Mirror">{% fa_svg fab.fa-github %} GitHub</a>
             </li>

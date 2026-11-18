@@ -1,0 +1,8 @@
+_: Adoptium 使用帮助
+title: Adoptium
+summary: Eclipse Temurin JDK 安装包及 DEB、RPM 软件源
+block:
+- index
+path: adoptium
+mirrorid: adoptium
+mirrorz_id: Adoptium

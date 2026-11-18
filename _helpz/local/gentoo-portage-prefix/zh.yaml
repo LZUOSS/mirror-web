@@ -1,1 +1,6 @@
-permalink: gentoo-prefix
+_: Gentoo Prefix Portage 使用帮助
+title: Gentoo Prefix Portage
+summary: Gentoo Prefix 相关 ebuild 文件树
+block:
+- index
+mirrorz_id: gentoo-portage-prefix

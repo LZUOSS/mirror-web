@@ -1,0 +1,6 @@
+_: Gentoo Portage 使用帮助
+title: Gentoo Portage
+summary: Gentoo ebuild 仓库的文件树
+block:
+- index
+mirrorz_id: gentoo-portage

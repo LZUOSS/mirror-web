@@ -127,7 +127,10 @@ export default defineConfig(({ mode }) => ({
         load(id) {
           if (id === "\0" + "virtual:tuna-help-pages") {
             const pages = Object.fromEntries(
-              helpPages.map((page) => [page.zconf.name, page.url]),
+              helpPages.map((page) => [
+                page.zconf.mirrorid || page.zconf.name,
+                page.url,
+              ]),
             );
             return `export default ${JSON.stringify(pages)};`;
           }

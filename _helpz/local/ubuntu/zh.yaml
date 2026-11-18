@@ -1,3 +1,6 @@
+_: Ubuntu 使用帮助
+title: Ubuntu
+summary: Ubuntu x86 软件包仓库
 block:
-- ports
-- ubuntu
+- index
+mirrorz_id: ubuntu

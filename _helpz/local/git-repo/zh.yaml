@@ -1,1 +1,7 @@
-git: true
+_: Git Repo 使用帮助
+title: Git Repo
+summary: Android Repo 工具及其源码目录
+block:
+- index
+path: git-repo
+mirrorz_id: git-repo

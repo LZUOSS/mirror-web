@@ -1,0 +1,6 @@
+_: Manjaro 使用帮助
+title: Manjaro
+summary: Manjaro 稳定、测试和开发分支的软件包
+block:
+- index
+mirrorz_id: manjaro

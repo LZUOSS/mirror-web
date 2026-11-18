@@ -1,0 +1,6 @@
+_: CentOS 归档 使用帮助
+title: CentOS 归档
+summary: 已归档的 CentOS 发行版本
+block:
+- index
+mirrorz_id: centos

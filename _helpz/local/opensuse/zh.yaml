@@ -1,0 +1,6 @@
+_: openSUSE 使用帮助
+title: openSUSE
+summary: openSUSE Leap、Tumbleweed、Slowroll 的软件包和介质
+block:
+- index
+mirrorz_id: opensuse

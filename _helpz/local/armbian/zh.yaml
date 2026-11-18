@@ -1,0 +1,6 @@
+_: Armbian 使用帮助
+title: Armbian
+summary: Armbian 系统的软件包仓库
+block:
+- index
+mirrorz_id: armbian

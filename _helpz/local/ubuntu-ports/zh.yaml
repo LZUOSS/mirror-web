@@ -1,0 +1,6 @@
+_: Ubuntu Ports 使用帮助
+title: Ubuntu Ports
+summary: Ubuntu ARM、RISC-V 等移植架构的软件包
+block:
+- index
+mirrorz_id: ubuntu-ports

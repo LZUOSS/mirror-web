@@ -1,0 +1,6 @@
+_: Rocky Linux 使用帮助
+title: Rocky Linux
+summary: Rocky Linux 安装镜像及 BaseOS、AppStream 等软件包
+block:
+- index
+mirrorz_id: rocky
