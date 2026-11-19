@@ -443,7 +443,7 @@ enablePages.forEach((page) => {
   mdContent.push("{% endraw %}");
   mdContent.unshift(
     `---
-${JSON.stringify({ zconf: conf, templates }, null, 2)}
+${JSON.stringify({ zconf: conf, templates, permalink: conf.permalink }, null, 2)}
 ---`,
   );
   const finalContent = mdContent.join("\n");

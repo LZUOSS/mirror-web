@@ -3,19 +3,24 @@ import { useMirrorList } from "../lib/mirrorList";
 import { computed } from "vue";
 
 const rawMirrorList = useMirrorList();
+const path = location.pathname.toLowerCase().replace(/\/?$/, "/");
 
 const nowBrowsingMirror = computed(() => {
-  let mirrorName = location.pathname.split("/")[1]?.toLowerCase();
-  if (!mirrorName) {
-    return null;
+  let bestMatch = null;
+  let matchedLength = 0;
+  for (const mirror of rawMirrorList.value) {
+    const url = mirror.url?.startsWith("/") ? mirror.url : `/${mirror.name}/`;
+    const prefix = url.toLowerCase().replace(/\/?$/, "/");
+    if (
+      prefix !== "/" &&
+      prefix.length > matchedLength &&
+      path.startsWith(prefix)
+    ) {
+      bestMatch = mirror;
+      matchedLength = prefix.length;
+    }
   }
-  const result = rawMirrorList.value.filter((m) => {
-    return m.name.toLowerCase() === mirrorName;
-  })[0];
-  if (!result) {
-    return null;
-  }
-  return result;
+  return bestMatch;
 });
 </script>
 

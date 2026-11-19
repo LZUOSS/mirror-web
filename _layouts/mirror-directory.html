@@ -1,0 +1,45 @@
+---
+jsEntry: fancyIndex
+---
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  {% assign directory = site.data.software_mirrors[page.catalog] %}
+  {% include head.html cattitle=directory.title notArticle=true %}
+  <body>
+    {% include nav.html %}
+    <main id="mirrors">
+      <div class="spacing hidden-xs"></div>
+      <div class="container">
+        <div class="table-responsive">
+          {% include directory-heading.html title=directory.title %}
+          <table id="list" class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">使用帮助</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="{{ directory.parent | default: '/' }}">../</a></td><td></td></tr>
+              {% for entry in directory.entries %}
+              <tr>
+                <td><a href="{{ entry.url | escape }}">{{ entry.name | escape }}</a></td>
+                <td>
+                  {% if entry.help %}
+                  <a href="{{ entry.help | escape }}" aria-label="{{ entry.name | escape }} 使用帮助">
+                    <i aria-hidden="true" class="question-circle" title="本站帮助">{% fa_svg fas.fa-circle-question %}</i>
+                    <span class="visually-hidden">使用帮助</span>
+                  </a>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% if directory.entries == empty %}<p>暂无已发布镜像。</p>{% endif %}
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,8 @@
+_: HPCG 镜像使用帮助
+title: HPCG
+summary: 高性能共轭梯度基准测试的源码
+path: hpc/hpcg
+directory: hpc
+permalink: /hpc/hpcg/guide.html
+block:
+  - index

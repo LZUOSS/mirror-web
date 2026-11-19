@@ -1,6 +1,9 @@
 <script setup>
 import { ref, computed } from "vue";
-import { options as globalOptions } from "virtual:jekyll-data";
+import {
+  options as globalOptions,
+  software_mirrors,
+} from "virtual:jekyll-data";
 import HelpPages from "virtual:tuna-help-pages";
 import BootStrapPopover from "bootstrap/js/dist/popover";
 import SearchBox from "./SearchBox.vue";
@@ -17,13 +20,35 @@ const mirrorList = computed(() => {
   return genMainMirrorList(rawMirrorList.value, HelpPages);
 });
 const filter = ref("");
+const query = computed(() => filter.value.trim().toLowerCase());
+const directories = Object.entries(software_mirrors);
+const folders = directories
+  .filter(([, folder]) => !folder.parent && folder.entries.length)
+  .map(([path, folder]) => ({
+    title: folder.title,
+    url: `/${path}/`,
+    keywords: [
+      path,
+      folder.title,
+      ...directories
+        .filter(([key]) => key === path || key.startsWith(`${path}/`))
+        .flatMap(([, directory]) =>
+          directory.entries.map((entry) => entry.name),
+        ),
+    ]
+      .join(" ")
+      .toLowerCase(),
+  }));
+const filteredFolders = computed(() =>
+  folders.filter((folder) => folder.keywords.includes(query.value)),
+);
 
-const filteredMirrorList = computed(() => {
-  var filterText = filter.value.toLowerCase();
-  return mirrorList.value.filter((m) => {
-    return m.is_master && m.name.toLowerCase().indexOf(filterText) !== -1;
-  });
-});
+const filteredMirrorList = computed(() =>
+  mirrorList.value.filter(
+    (mirror) =>
+      mirror.is_master && mirror.name.toLowerCase().includes(query.value),
+  ),
+);
 
 const vWithPopover = {
   mounted: (el) => {

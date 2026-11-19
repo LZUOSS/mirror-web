@@ -1,0 +1,15 @@
+hpc:
+  title: 高性能计算
+  entries:
+    - name: HPCG
+      url: /hpc/hpcg/
+      help: /hpc/hpcg/guide.html
+    - name: LZ4
+      url: /hpc/lz4/
+      help: /hpc/lz4/guide.html
+science:
+  title: 科学计算
+  entries: []
+ai:
+  title: 人工智能
+  entries: []

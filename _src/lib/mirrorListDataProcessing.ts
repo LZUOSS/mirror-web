@@ -7,6 +7,7 @@ export default function (globalOptions: GlobalOptions) {
     globalOptions.new_mirrors.map((x) => [x, true]),
   );
   const unlisted = globalOptions.unlisted_mirrors;
+  const groupedProjects = globalOptions.software_mirror_projects || [];
   const forceHelp = Object.fromEntries(
     globalOptions.force_redirect_help_mirrors.map((m) => [m, true]),
   );
@@ -107,7 +108,10 @@ export default function (globalOptions: GlobalOptions) {
     helpPages: Record<string, string>,
   ) => {
     return status_data
-      .filter((d) => !(d.status == "disabled"))
+      .filter(
+        (d) =>
+          d.status !== "disabled" && groupedProjects.indexOf(d.name) === -1,
+      )
       .map((d) => ({
         ...d,
         url: forceHelp[d.name] ? helpPages[d.name] : d.url ?? `/${d.name}/`,

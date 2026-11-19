@@ -1,0 +1,8 @@
+_: LZ4 镜像使用帮助
+title: LZ4
+summary: LZ4 压缩库的源码归档
+path: hpc/lz4
+directory: hpc
+permalink: /hpc/lz4/guide.html
+block:
+  - index

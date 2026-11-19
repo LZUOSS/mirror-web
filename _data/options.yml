@@ -1,4 +1,11 @@
+software_mirror_projects:
+  - hpcg
+  - lz4
 mirror_desc:
+  - name: hpcg
+    desc: 高性能共轭梯度基准测试的源码
+  - name: lz4
+    desc: LZ4 压缩库的源码归档
   - name: adoptium
     desc: 社区维护的 OpenJDK 二进制包
   - name: CPAN

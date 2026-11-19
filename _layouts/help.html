@@ -16,10 +16,14 @@ jsEntry: help
 </script>
 {% endif %}
 
-{% assign help_pages = site["help"] | sort: 'zconf.name' %}
+{% assign directory = page.zconf.directory %}
+{% unless directory %}
+  {% assign help_pages = site.help | where_exp: 'h', 'h.zconf.directory == nil' | sort: 'zconf.name' %}
+{% endunless %}
 <div id="help-page">
 	<div class="container">
 	  <div class="row">
+		  {% unless directory %}
 		  <div class="d-none d-md-block col-md-3">
 				<ul class="nav nav-pills flex-column" id="help-nav">
 					{% for h in help_pages %}
@@ -27,12 +31,15 @@ jsEntry: help
 					{% endfor %}
 				</ul>
 			</div><!-- sidenave -->
-			<div class="col-md-9">
+			{% endunless %}
+			<div class="col-md-9{% if directory %} mx-auto{% endif %}">
         <div class="help-links d-flex flex-wrap align-items-center gap-3 mb-3">
           <a href="/help/">全部使用帮助</a>
+          {% if directory %}<a href="/{{ directory }}/">{{ site.data.software_mirrors[directory].title | escape }}</a>{% endif %}
           <a href="/{{ page.zconf.path | default: page.zconf.name }}/">浏览文件</a>
           {% if page.zconf.mirrorz_id and site.hide_mirrorz != true %}<a href="{{ site.mirrorz_help_link }}{{ page.zconf.mirrorz_id }}/">MirrorZ 帮助 ↗</a>{% endif %}
         </div>
+				{% unless directory %}
 				<div class="d-block d-md-none">
 					<form class="form-inline">
 						<div class="form-group">
@@ -45,6 +52,7 @@ jsEntry: help
 						</div>
 					</form>
 				</div>
+				{% endunless %}
 				<button id="debug-restore" style="display: none;">debug-restore</button>
 				<div id="help-content" data-helpz-not-ready data-cannot-copy>
 					{{ content }}

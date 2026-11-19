@@ -41,7 +41,7 @@
       <ul class="nav navbar-nav" role="menubar">
         {% unless site.hide_navbar %}
         {% assign is_help = false %}
-        {% if page.url contains '/help/' %}{% assign is_help = true %}{% endif %}
+        {% if page.url contains '/help/' or page.collection == 'help' %}{% assign is_help = true %}{% endif %}
         <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="{{ site.homelink }}" aria-label="兰州大学开源社区主页">HOME</a></li>
         <li role="none" class="nav-item"><a role="menuitem" class="nav-link{% unless is_help %} active{% endunless %}"{% unless is_help %} aria-current="page"{% endunless %} href="{{ site.url }}">MIRRORS</a></li>
         <li role="none" class="nav-item"><a role="menuitem" class="nav-link{% if is_help %} active{% endif %}"{% if is_help %} aria-current="page"{% endif %} href="/help/">HELP</a></li>

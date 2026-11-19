@@ -4,7 +4,7 @@ import "../styles/fancyIndex.scss";
 import NowBrowsingMirror from "../components/NowBrowsingMirror.vue";
 import { createApp } from "vue";
 
-document.getElementById("list").setAttribute("class", "table");
+document.getElementById("list")?.classList.add("table");
 Array.from(document.querySelectorAll("#list tbody tr td:nth-child(3)")).forEach(
   (el) => {
     const d = new Date(el["textContent"]);
@@ -24,4 +24,7 @@ Array.from(document.querySelectorAll("#list tbody tr td:nth-child(3)")).forEach(
   },
 );
 
-createApp(NowBrowsingMirror).mount("#now-browsing-mirror");
+const mirrorStatus = document.getElementById("now-browsing-mirror");
+if (mirrorStatus) {
+  createApp(NowBrowsingMirror).mount(mirrorStatus);
+}

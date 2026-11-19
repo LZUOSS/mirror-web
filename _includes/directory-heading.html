@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-lg-8 col-12">
+    <h3>{% fa_svg fas.fa-cube %} {{ include.title }}{% if include.path %} <span id="path">{{ include.path }}</span>{% endif %}</h3>
+  </div>
+  {% if include.status %}
+  <div class="col-lg-4 col-12 d-flex align-items-end justify-content-start justify-content-lg-end">
+    <div id="now-browsing-mirror"></div>
+  </div>
+  {% endif %}
+</div>

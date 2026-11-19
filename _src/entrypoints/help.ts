@@ -7,7 +7,7 @@ import "../styles/help.scss";
 import { ZInputOutput } from "../lib/helpz-types";
 import { flattenData } from "../lib/helpz-libs.mjs";
 
-document.getElementById("help-select").addEventListener("change", (ev) => {
+document.getElementById("help-select")?.addEventListener("change", (ev) => {
   let help_url = (ev.target as Element).querySelector("option:checked")
     .attributes["data-help-url"].value;
   window.location.assign(
