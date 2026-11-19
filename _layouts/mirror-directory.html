@@ -4,19 +4,20 @@ jsEntry: fancyIndex
 <!DOCTYPE html>
 <html lang="zh-Hans">
   {% assign directory = site.data.software_mirrors[page.catalog] %}
-  {% include head.html cattitle=directory.title notArticle=true %}
+  {% assign directory_title = "Index of " | append: page.url %}
+  {% include head.html cattitle=directory_title notArticle=true %}
   <body>
     {% include nav.html %}
     <main id="mirrors">
       <div class="spacing hidden-xs"></div>
       <div class="container">
         <div class="table-responsive">
-          {% include directory-heading.html title=directory.title %}
+          {% include directory-heading.html title="Index of" path=page.url %}
           <table id="list" class="table table-hover">
             <thead>
               <tr>
                 <th scope="col">Name</th>
-                <th scope="col">使用帮助</th>
+                <th scope="col">Help</th>
               </tr>
             </thead>
             <tbody>

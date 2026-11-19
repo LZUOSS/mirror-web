@@ -18,7 +18,7 @@
         <tr class="row">
           <td class="col-8 col-lg-7 col-xl-8">
             {% fa_svg fas.fa-folder %}
-            <a class="mirror-item-label" href="/{{ folder[0] }}/">{{ folder[1].title | escape }}</a>
+            <a class="mirror-item-label" href="/{{ folder[0] }}/">{{ folder[0] | escape }}</a>
           </td>
           <td class="col-4 col-lg-5 col-xl-4"></td>
         </tr>
@@ -29,7 +29,7 @@
       <tr v-for="folder in filteredFolders" :key="folder.url" class="row">
         <td class="col-8 col-lg-7 col-xl-8">
           {% endraw %}{% fa_svg fas.fa-folder %}{% raw %}
-          <a class="mirror-item-label" :href="folder.url">{{ folder.title }}</a>
+          <a class="mirror-item-label" :href="folder.url">{{ folder.name }}</a>
         </td>
         <td class="col-4 col-lg-5 col-xl-4"></td>
       </tr>

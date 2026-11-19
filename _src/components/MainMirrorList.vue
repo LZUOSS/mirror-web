@@ -25,7 +25,7 @@ const directories = Object.entries(software_mirrors);
 const folders = directories
   .filter(([, folder]) => !folder.parent && folder.entries.length)
   .map(([path, folder]) => ({
-    title: folder.title,
+    name: path,
     url: `/${path}/`,
     keywords: [
       path,
