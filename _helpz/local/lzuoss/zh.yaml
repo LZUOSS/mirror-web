@@ -1,5 +1,7 @@
 _: LZUOSS 本站资源 使用帮助
 title: LZUOSS 本站资源
 summary: 兰州大学开源社区维护的自有文件
+mirror_aliases:
+- lzuoss-git
 block:
 - index
