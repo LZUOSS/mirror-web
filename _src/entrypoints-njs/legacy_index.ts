@@ -59,6 +59,7 @@ export function legacyIndexRender(r: NginxHTTPRequest) {
               const renMirs = genMainMirrorList(
                 postProcessStatusData(mirs, unlisted),
                 help_url,
+                global_options.software_mirrors,
               );
               var result = Mark.up(tmpl, { mirs: renMirs });
               r.status = 200;

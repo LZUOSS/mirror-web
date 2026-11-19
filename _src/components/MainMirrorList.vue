@@ -17,36 +17,37 @@ const { unlistedMirrors: unlisted, genMainMirrorList } =
 const rawMirrorList = useMirrorList(unlisted);
 
 const mirrorList = computed(() => {
-  return genMainMirrorList(rawMirrorList.value, HelpPages);
+  return genMainMirrorList(rawMirrorList.value, HelpPages, software_mirrors);
 });
 const filter = ref("");
 const query = computed(() => filter.value.trim().toLowerCase());
 const directories = Object.entries(software_mirrors);
-const folders = directories
-  .filter(([, folder]) => !folder.parent && folder.entries.length)
-  .map(([path, folder]) => ({
-    name: path,
-    url: `/${path}/`,
-    keywords: [
+const directoryKeywords = new Map(
+  directories
+    .filter(([, folder]) => !folder.parent)
+    .map(([path, folder]) => [
       path,
-      folder.title,
-      ...directories
-        .filter(([key]) => key === path || key.startsWith(`${path}/`))
-        .flatMap(([, directory]) =>
-          directory.entries.map((entry) => entry.name),
-        ),
-    ]
-      .join(" ")
-      .toLowerCase(),
-  }));
-const filteredFolders = computed(() =>
-  folders.filter((folder) => folder.keywords.includes(query.value)),
+      [
+        path,
+        folder.title,
+        ...directories
+          .filter(([key]) => key === path || key.startsWith(`${path}/`))
+          .flatMap(([, directory]) =>
+            directory.entries.map((entry) => entry.name),
+          ),
+      ]
+        .join(" ")
+        .toLowerCase(),
+    ]),
 );
 
 const filteredMirrorList = computed(() =>
   mirrorList.value.filter(
     (mirror) =>
-      mirror.is_master && mirror.name.toLowerCase().includes(query.value),
+      mirror.is_master &&
+      (
+        directoryKeywords.get(mirror.name) ?? mirror.name.toLowerCase()
+      ).includes(query.value),
   ),
 );
 

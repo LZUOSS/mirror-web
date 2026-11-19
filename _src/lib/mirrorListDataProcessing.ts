@@ -1,5 +1,10 @@
 import { format as TimeAgoFormat } from "timeago.js";
-import { MirrorInfo, GlobalOptions } from "./types";
+import { MirrorInfo, GlobalOptions, MirrorDirectories } from "./types";
+
+function compareMirrorNames(a: MirrorInfo, b: MirrorInfo) {
+  if (a.name === b.name) return 0;
+  return a.name < b.name ? -1 : 1;
+}
 
 export default function (globalOptions: GlobalOptions) {
   const label_map = globalOptions.label_map;
@@ -77,9 +82,7 @@ export default function (globalOptions: GlobalOptions) {
   };
 
   const sortAndUniqMirrors = (mirs: MirrorInfo[]): MirrorInfo[] => {
-    mirs.sort((a, b) => {
-      return a.name < b.name ? -1 : 1;
-    });
+    mirs.sort(compareMirrorNames);
     return mirs.reduce((acc: MirrorInfo[], cur: MirrorInfo) => {
       if (acc.length > 1 && acc[acc.length - 1].name == cur.name) {
         if (acc[acc.length - 1].last_update_ts && cur.last_update_ts) {
@@ -109,12 +112,24 @@ export default function (globalOptions: GlobalOptions) {
   const genMainMirrorList = (
     status_data: MirrorInfo[],
     helpPages: Record<string, string>,
+    directories: MirrorDirectories = {},
   ) => {
-    return status_data
+    const mirrors = status_data.filter(
+      (d) =>
+        d.status !== "disabled" && hiddenFromHomepage.indexOf(d.name) === -1,
+    );
+    const directoryRows = Object.keys(directories)
       .filter(
-        (d) =>
-          d.status !== "disabled" && hiddenFromHomepage.indexOf(d.name) === -1,
+        (name) =>
+          !directories[name].parent &&
+          directories[name].entries.length > 0 &&
+          !mirrors.some((mirror) => mirror.name === name),
       )
+      .map((name) => ({ name, url: `/${name}/`, is_master: true }));
+
+    return mirrors
+      .concat(directoryRows)
+      .sort(compareMirrorNames)
       .map((d) => ({
         ...d,
         url: forceHelp[d.name] ? helpPages[d.name] : d.url ?? `/${d.name}/`,

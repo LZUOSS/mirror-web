@@ -1,5 +1,6 @@
 {
 "options": {{ site.data.options | jsonify }},
+"software_mirrors": {{ site.data.software_mirrors | jsonify }},
 "helps": [
   {%- for help in site.help -%}
     {"mirrorid": {{ help.zconf.mirrorid | default: help.zconf.name | jsonify }}, "url": {{ help.url | jsonify }}}

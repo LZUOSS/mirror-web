@@ -30,6 +30,11 @@ export interface MirrorDesc {
   desc: string;
 }
 
+export type MirrorDirectories = Record<
+  string,
+  { title: string; parent?: string; entries: { name: string }[] }
+>;
+
 export interface GlobalOptions {
   mirror_desc: MirrorDesc[];
   software_mirror_projects?: string[];

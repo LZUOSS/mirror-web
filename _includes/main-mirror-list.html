@@ -4,7 +4,7 @@
 	<SearchBox v-model="filter" />
 	{% endunless %}
 </div>
-<table class="table row table-hover"{% unless include.legacy %} v-if="mirrorList.length || folders.length"{% endunless %}>
+<table class="table row table-hover"{% unless include.legacy %} v-if="mirrorList.length"{% endunless %}>
 	<thead>
 		<tr class="row">
 			<th class="col-8 col-lg-7 col-xl-8">Name</th>
@@ -12,34 +12,11 @@
 		</tr>
 	</thead>
 	<tbody class="table-group-divider">
-    {% if include.legacy %}
-      {% for folder in site.data.software_mirrors %}
-        {% if folder[1].entries != empty and folder[1].parent == nil %}
-        <tr class="row">
-          <td class="col-8 col-lg-7 col-xl-8">
-            {% fa_svg fas.fa-folder %}
-            <a class="mirror-item-label" href="/{{ folder[0] }}/">{{ folder[0] | escape }}</a>
-          </td>
-          <td class="col-4 col-lg-5 col-xl-4"></td>
-        </tr>
-        {% endif %}
-      {% endfor %}
-    {% else %}
-      {% raw %}
-      <tr v-for="folder in filteredFolders" :key="folder.url" class="row">
-        <td class="col-8 col-lg-7 col-xl-8">
-          {% endraw %}{% fa_svg fas.fa-folder %}{% raw %}
-          <a class="mirror-item-label" :href="folder.url">{{ folder.name }}</a>
-        </td>
-        <td class="col-4 col-lg-5 col-xl-4"></td>
-      </tr>
-      {% endraw %}
-    {% endif %}
     {% if include.legacy %}{% raw %}
 		{{mirs}}
-    <tr class="row status-{{status}}">
+    <tr class="row{{if status}} status-{{status}}{{/if}}">
     {% endraw %}{% else %}{% raw %}
-		<tr v-for="mir in filteredMirrorList" :class="['row', 'status-'+mir.status]" :key="mir.name">
+		<tr v-for="mir in filteredMirrorList" :class="['row', mir.status && 'status-'+mir.status]" :key="mir.name">
     {% endraw %}{% endif %}
 			<td class="col-8 col-lg-7 col-xl-8">
 
