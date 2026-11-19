@@ -56,6 +56,7 @@
 - "openjdk"
 - "opensuse"
 - "opensuse-ports"
+- "optimum-quanto"
 - "openwrt"
 - "pypi"
 - "radxa-deb"
@@ -73,4 +74,5 @@
 - "ubuntukylin-cdimage"
 - "virtualbox"
 - "wepe"
+- "wps"
 - "zerotier"

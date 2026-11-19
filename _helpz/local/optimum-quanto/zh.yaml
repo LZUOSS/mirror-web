@@ -1,0 +1,8 @@
+_: Optimum Quanto 镜像使用帮助
+title: Optimum Quanto
+summary: Hugging Face Optimum Quanto 模型量化工具的源码发行
+path: ai-infra/optimum-quanto
+directory: ai-infra
+permalink: /ai-infra/optimum-quanto/guide.html
+block:
+  - index

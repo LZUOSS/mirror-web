@@ -9,7 +9,13 @@ hpc:
       help: /hpc/lz4/guide.html
 science:
   title: 科学计算
-  entries: []
-ai:
-  title: 人工智能
-  entries: []
+  entries:
+    - name: WPS
+      url: /scientific/wps/
+      help: /scientific/wps/guide.html
+ai-infra:
+  title: AI 基础设施
+  entries:
+    - name: Optimum Quanto
+      url: /ai-infra/optimum-quanto/
+      help: /ai-infra/optimum-quanto/guide.html

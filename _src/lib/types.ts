@@ -33,6 +33,7 @@ export interface MirrorDesc {
 export interface GlobalOptions {
   mirror_desc: MirrorDesc[];
   software_mirror_projects?: string[];
+  homepage_hidden_mirrors?: string[];
   new_mirrors: string[];
   unlisted_mirrors: Partial<MirrorInfo>[];
   force_redirect_help_mirrors: string[];

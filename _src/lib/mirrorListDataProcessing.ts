@@ -7,7 +7,10 @@ export default function (globalOptions: GlobalOptions) {
     globalOptions.new_mirrors.map((x) => [x, true]),
   );
   const unlisted = globalOptions.unlisted_mirrors;
-  const groupedProjects = globalOptions.software_mirror_projects || [];
+  const hiddenFromHomepage = [
+    ...(globalOptions.software_mirror_projects || []),
+    ...(globalOptions.homepage_hidden_mirrors || []),
+  ];
   const forceHelp = Object.fromEntries(
     globalOptions.force_redirect_help_mirrors.map((m) => [m, true]),
   );
@@ -110,7 +113,7 @@ export default function (globalOptions: GlobalOptions) {
     return status_data
       .filter(
         (d) =>
-          d.status !== "disabled" && groupedProjects.indexOf(d.name) === -1,
+          d.status !== "disabled" && hiddenFromHomepage.indexOf(d.name) === -1,
       )
       .map((d) => ({
         ...d,
