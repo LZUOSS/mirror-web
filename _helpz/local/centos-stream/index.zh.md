@@ -1,19 +1,6 @@
-## 用途
+## 下载与换源
 
-CentOS Stream 软件包与安装文件。
+本站已下架 CentOS Stream 镜像。
 
-## 当前入口
-
-本站该下载路径会跳转至：
-
-[https://mirrors.nju.edu.cn/centos-stream/](https://mirrors.nju.edu.cn/centos-stream/)
-
-## 使用方法
-
-CentOS Stream 按主版本持续更新。进入对应版本与架构的目录，使用该版本的 Stream 软件源或安装文件。
-
-已有系统修改 `.repo` 时保留 Stream 主版本、仓库子路径和签名密钥。Stream 使用上面的独立路径，历史 CentOS Linux 的归档见 [CentOS Vault](../centos-vault/)。
-
-## 相关文档
-
-[目标镜像站](https://mirrors.nju.edu.cn/centos-stream/)
+- CentOS Stream 9 的下载见 [南京大学 CentOS Stream 镜像](https://mirrors.nju.edu.cn/centos-stream/9-stream/)，换源步骤见 [Stream 9 换源说明](https://help.mirror.nju.edu.cn/centos-stream/)。
+- CentOS Stream 10 可沿用系统自带的软件源配置，下载见 [CentOS Stream 10 官方发行目录](https://mirror.stream.centos.org/10-stream/)。

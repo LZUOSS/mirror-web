@@ -1,5 +1,5 @@
 _: Fedora Secondary Architectures 使用帮助
-title: Fedora Secondary Architectures
-summary: Fedora 次要架构仓库的软件包、更新和安装介质
+title: Fedora 次要架构
+summary: Fedora 的 ppc64le 和 s390x 更新仓库及发行文件目录
 block:
 - index

@@ -12,7 +12,7 @@ export HOMEBREW_API_DOMAIN="{{endpoint}}/api"
 brew update
 ```
 
-长期使用时，将两条 `export` 写入当前 shell 的启动配置。Homebrew 的 Git 仓库地址和 Cask 的上游安装文件地址分别配置；上述变量控制 bottles 与 API。
+长期使用时，将两条 `export` 写入当前 shell 的启动配置。第一条设置 bottle 下载地址，第二条设置 formula 和 cask 的 JSON 元数据地址。Homebrew 自身的 Git 仓库仍使用原有地址，cask 安装文件按各 cask 定义的地址下载。
 
 运行 `brew config` 可查看当前设置。
 

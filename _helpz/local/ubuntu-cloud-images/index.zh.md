@@ -4,7 +4,7 @@
 
 ## 下载方法
 
-按发行版代号和构建目录选择镜像，再按目标平台选择 qcow2、img 或对应云镜像格式。使用 cloud-init 配置登录用户和 SSH 公钥；这些文件是预安装磁盘镜像。
+从镜像根目录进入发行版代号目录，例如 [`noble/current/`](/ubuntu-cloud-images/noble/current/)，再按 CPU 架构和虚拟化平台选择镜像文件。首次启动时可用 cloud-init 配置登录用户和 SSH 公钥。按发行日期归档的 `releases/` 目录见 [Ubuntu 官方归档](https://cloud-images.ubuntu.com/releases/)。
 
 ## 相关文档
 

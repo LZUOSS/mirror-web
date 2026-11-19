@@ -16,8 +16,8 @@ Server = {{endpoint}}/repo/$repo
 {{sudo}}pacman -Syu
 ```
 
-RISC-V rootfs 位于 `images/`。
+RISC-V rootfs 压缩包和安装 ISO 位于 [`images/`](/archriscv/images/)。
 
 ## 相关文档
 
-[MirrorZ Arch Linux RISC-V 帮助](https://help.mirrors.cernet.edu.cn/archriscv/)
+[Arch Linux RISC-V 项目](https://archriscv.felixc.at/) · [MirrorZ Arch Linux RISC-V 帮助](https://help.mirrors.cernet.edu.cn/archriscv/)

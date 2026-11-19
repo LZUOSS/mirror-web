@@ -11,9 +11,9 @@ options(repos = c(CRAN = "{{endpoint}}/"))
 install.packages("ggplot2")
 ```
 
-长期使用时，将 `options(...)` 一行写入 `~/.Rprofile`。
+第一行设置当前 R 会话的 CRAN 地址。为用户设置默认地址时，将该行写入 `~/.Rprofile`。
 
-Linux 的 R 软件包仓库位于 `bin/linux/`，按发行版进入相应子目录；Windows 和 macOS 安装程序分别位于 `bin/windows/`、`bin/macosx/`。
+安装 R 本身时，从镜像的 `bin/linux/`、`bin/windows/` 或 `bin/macosx/` 选择对应系统的目录。Linux 发行版的系统包配置按对应子目录提供的说明操作。
 
 ## 相关文档
 

@@ -1,19 +1,3 @@
-## 用途
+## 历史版本下载
 
-CentOS 历史版本的额外架构文件。
-
-## 当前入口
-
-本站该下载路径会跳转至：
-
-[https://mirrors.nju.edu.cn/centos-vault/altarch/](https://mirrors.nju.edu.cn/centos-vault/altarch/)
-
-## 使用方法
-
-按版本、仓库和架构选择文件。历史发行版使用 vault 路径；归档内容不会为该发行版继续提供新的安全更新。CentOS Stream 使用独立的 stream 路径。
-
-已有系统修改 `.repo` 时保留原来的版本与签名密钥，不把其他发行版的软件包混入当前系统。
-
-## 相关文档
-
-[目标镜像站](https://mirrors.nju.edu.cn/centos-vault/altarch/)
+本站已下架 CentOS AltArch 镜像。历史版本的其他架构文件可从[南京大学 CentOS Vault AltArch](https://mirrors.nju.edu.cn/centos-vault/altarch/)下载。按系统原有版本和架构选择目录。

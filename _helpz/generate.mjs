@@ -259,10 +259,12 @@ enablePages.forEach((page) => {
   mdContent.push(`{% raw %}`);
   mdContent.push(`# ${conf["_"]}\n`);
   let inputCounter = 0;
-  mdContent.push(
-    renderZForm(-1, Object.keys(globalVars), globalVars, () => inputCounter++) +
-      "\n",
-  );
+  if (!conf.retired) {
+    mdContent.push(
+      renderZForm(-1, Object.keys(globalVars), globalVars, () => inputCounter++) +
+        "\n",
+    );
+  }
   const blocks = conf.block || ["index"];
   blocks.forEach((block) => {
     const { content: blockContent, path: blockPath } = loadBlock(

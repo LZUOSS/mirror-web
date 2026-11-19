@@ -1,5 +1,6 @@
 _: deepin 软件源 使用帮助
 title: deepin 软件源
-summary: deepin 软件包仓库
+summary: 本站镜像已下架，查看 deepin 软件源换源方法
+retired: true
 block:
 - index

@@ -1,21 +1,25 @@
 ## 用途
 
-Fedora 次要架构仓库的软件包、更新和安装介质。
+本站 Fedora 次要架构目录用于查找 `ppc64le`（IBM Power）和 `s390x`（IBM Z）的发行文件与软件包。`x86_64` 和 `aarch64` 使用 [Fedora 主仓](/help/fedora/)。
 
 ## 配置方法
 
-编辑 Fedora 自带的 `.repo` 文件，在相应仓库中注释 `metalink=`，启用 `baseurl=`。发布仓库由本站 `/fedora-altarch/releases/` 进入，更新仓库为 `/fedora-altarch/updates/`。
+发行仓库 `[fedora]` 使用系统自带的 `metalink` 选择镜像。更新仓库可使用本站。如果对应版本和架构的更新目录下能打开 `repodata/repomd.xml`，可在 `/etc/dnf/repos.override.d/90-lzu-fedora-altarch.repo` 设置：
 
-按照原条目保留发行版本、Everything/Workstation/Server、架构及 `os/` 等后缀，保留 Fedora 签名密钥。
+```{ztmpl lang="ini"}
+[updates]
+metalink=
+baseurl={{endpoint}}/updates/$releasever/Everything/$basearch/
+```
 
 ```{ztmpl lang="bash"}
-{{sudo}}dnf makecache
+{{sudo}}dnf --refresh makecache
 ```
 
 ## 安装镜像
 
-进入 `releases/`，选择版本、版本类型和架构，再进入相应 `iso/` 目录。
+从 [Fedora 次要架构下载页](https://alt.fedoraproject.org/en/alt/) 选择架构和镜像类型。RISC-V 的下载与安装见 [Fedora RISC-V 安装文档](https://fedoraproject.org/wiki/Architectures/RISC-V/Installing)。
 
 ## 相关文档
 
-[Fedora 软件源配置](https://docs.fedoraproject.org/en-US/quick-docs/fedora-repositories/)
+[DNF5 仓库覆盖文件](https://dnf5.readthedocs.io/en/stable/dnf5.conf.5.html#repository-configuration-override)

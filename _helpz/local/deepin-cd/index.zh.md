@@ -1,17 +1,3 @@
-## 用途
+本站 deepin 安装镜像已下架，旧下载地址跳转至中国科学技术大学镜像站。
 
-deepin 系统安装文件。
-
-## 当前入口
-
-本站该下载路径会跳转至：
-
-[https://mirrors.ustc.edu.cn/deepin-cd/](https://mirrors.ustc.edu.cn/deepin-cd/)
-
-## 下载方法
-
-按版本与架构选择安装 ISO，并使用目标站提供的校验文件核对下载。
-
-## 相关文档
-
-[目标镜像站](https://mirrors.ustc.edu.cn/deepin-cd/)
+从[科大安装镜像目录](https://mirrors.ustc.edu.cn/deepin-cd/releases/)或 [deepin 官方下载页](https://www.deepin.org/zh/download/)按版本与架构选择 ISO，使用所选发布版本提供的校验值核对文件。

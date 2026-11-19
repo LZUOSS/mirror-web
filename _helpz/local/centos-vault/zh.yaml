@@ -1,6 +1,7 @@
 _: CentOS Vault 使用帮助
 title: CentOS Vault
-summary: CentOS 历史版本归档
+summary: 原 CentOS Vault 下载入口已下架
 block:
 - index
 mirrorz_id: centos-vault
+retired: true

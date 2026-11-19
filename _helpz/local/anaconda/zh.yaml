@@ -1,6 +1,7 @@
 _: Anaconda 使用帮助
 title: Anaconda
-summary: Conda 软件包与 Anaconda/Miniconda 安装程序
+summary: 本站镜像已下架，查看 Conda 换源和安装程序下载地址
+retired: true
 block:
 - index
 mirrorz_id: anaconda

@@ -1,5 +1,6 @@
 _: deepin 安装镜像 使用帮助
 title: deepin 安装镜像
-summary: deepin 系统安装文件
+summary: 本站镜像已下架，查看 deepin 安装镜像下载地址
+retired: true
 block:
 - index

@@ -1,19 +1,6 @@
-## 用途
+本站 Anaconda 镜像已下架，旧下载地址跳转至中国科学技术大学镜像站。
 
-Conda 软件包与 Anaconda/Miniconda 安装程序。
-
-## 当前入口
-
-本站该下载路径会跳转至：
-
-[https://mirrors.ustc.edu.cn/anaconda/](https://mirrors.ustc.edu.cn/anaconda/)
-
-## 使用方法
-
-Conda 用户按 [科大 Anaconda 帮助](https://mirrors.ustc.edu.cn/help/anaconda.html) 配置所需 channel。保留各 channel 名称和优先级；安装程序位于目标站的安装器目录。
-
-长期配置可直接使用目标站地址，省去本站的一次跳转。
-
-## 相关文档
-
-[目标镜像站](https://mirrors.ustc.edu.cn/anaconda/)
+- 继续使用 `defaults` 时，运行 `conda config --show-sources` 找到原配置文件，按[校园网联合镜像站的官方频道配置说明](https://help.mirrors.cernet.edu.cn/anaconda/)更新指向本站的 `default_channels` 地址。
+- 使用 `conda-forge` 或 `bioconda` 时，按[科大 Conda 换源说明](https://mirrors.ustc.edu.cn/help/anaconda.html)更新 `.condarc`。
+- Miniconda 安装程序见[科大 Miniconda 下载目录](https://mirrors.ustc.edu.cn/anaconda/miniconda/)。
+- Anaconda Distribution 安装程序见[官方归档](https://repo.anaconda.com/archive/)。

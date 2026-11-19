@@ -4,21 +4,17 @@ EPEL 的 Enterprise Linux 附加软件包。
 
 ## 配置方法
 
-先通过项目官方说明安装对应的 release/keyring 软件包。编辑 `/etc/yum.repos.d/` 中该仓库的 `.repo` 文件，在需要使用本站的条目中注释 `metalink=` 或 `mirrorlist=`，启用 `baseurl=`，将仓库根地址改为：
+先按 [EPEL 配置说明](https://docs.fedoraproject.org/en-US/epel/getting-started/) 启用当前系统所需的依赖仓库并安装 `epel-release`。在 `/etc/yum.repos.d/epel.repo` 的 `[epel]` 条目中注释 `metalink=`，启用 `baseurl=` 并换成本站地址。保留原有签名设置。
 
-```{ztmpl lang="text"}
-{{endpoint}}/
-```
-
-保留版本、仓库、架构子路径，以及 `gpgcheck`、`gpgkey`。EPEL 跟随系统的 Enterprise Linux 主版本；EPEL Next 和 testing 使用各自的仓库路径。
-
-修改范围为对应的 EPEL 主仓库和 testing 条目。`epel-cisco-openh264.repo` 使用 Cisco 的发布地址，保留其原有配置。
-
-EPEL 9 的 `[epel]` 条目使用下面的地址；其他 EL 主版本选择对应的版本目录：
+EL 8 和 EL 9 的版本目录为 `8/` 和 `9/`。使用默认主版本号的系统可配置为：
 
 ```{ztmpl lang="ini"}
-baseurl={{endpoint}}/9/Everything/$basearch/
+baseurl={{endpoint}}/$releasever/Everything/$basearch/
 ```
+
+EL 10 按次版本区分软件包。使用已安装的 `epel-release` 所提供的 `baseurl=` 示例，将 `/pub/epel/` 及之前的地址换成本站 EPEL 根地址，保留后续的版本变量和架构路径。CentOS Stream 10 对应本站的 `10s/`，具体的 RHEL 10 次版本以本机 `epel-release` 配置为准。
+
+已启用的 EPEL Next 或 testing 条目可用相同方法替换根地址，保留原有的 `next/` 或 `testing/` 路径。
 
 ```{ztmpl lang="bash"}
 {{sudo}}dnf makecache
@@ -26,4 +22,4 @@ baseurl={{endpoint}}/9/Everything/$basearch/
 
 ## 相关文档
 
-[项目配置说明](https://docs.fedoraproject.org/en-US/epel/)
+[EPEL 版本分支](https://docs.fedoraproject.org/en-US/epel/branches/)

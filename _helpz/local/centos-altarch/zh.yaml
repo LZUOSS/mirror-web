@@ -1,5 +1,6 @@
 _: CentOS AltArch 使用帮助
 title: CentOS AltArch
-summary: CentOS 历史版本的额外架构文件
+summary: 原 CentOS AltArch 下载入口已下架
 block:
 - index
+retired: true

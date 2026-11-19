@@ -4,26 +4,50 @@ Fedora 和 Enterprise Linux 的 free、nonfree 附加包。
 
 ## 配置方法
 
-先按 RPM Fusion 官方说明安装与本机 Fedora/EL 版本对应的 release 包。在 `/etc/yum.repos.d/rpmfusion-*.repo` 中注释镜像选择行并启用 `baseurl`，将 `download1.rpmfusion.org` 的仓库根地址替换为本站地址：
+先按 [RPM Fusion 配置说明](https://rpmfusion.org/Configuration) 安装与你的系统版本对应的 release 包。保留原有仓库的启用状态和签名设置。
 
-```{ztmpl lang="text"}
-{{endpoint}}
-```
+### Fedora
 
-保留 `free/` 或 `nonfree/`、发行版、releases/updates 和架构后缀，以及 GPG 密钥设置。
-
-Fedora 的 free release 条目示例：
+在使用 DNF5 的 Fedora 上，以管理员身份在 `/etc/dnf/repos.override.d/` 新建 `90-lzu-rpmfusion.repo`，按已安装的仓库选择以下条目：
 
 ```{ztmpl lang="ini"}
+[rpmfusion-free]
+metalink=
 baseurl={{endpoint}}/free/fedora/releases/$releasever/Everything/$basearch/os/
+
+[rpmfusion-free-updates]
+metalink=
+baseurl={{endpoint}}/free/fedora/updates/$releasever/$basearch/
+
+[rpmfusion-nonfree]
+metalink=
+baseurl={{endpoint}}/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
+
+[rpmfusion-nonfree-updates]
+metalink=
+baseurl={{endpoint}}/nonfree/fedora/updates/$releasever/$basearch/
 ```
 
-对应 free updates 条目使用 `/free/fedora/updates/$releasever/$basearch/`；nonfree 条目使用同一结构下的 `nonfree` 根目录。
+### Enterprise Linux
+
+例如在 EL 9 上，修改 `/etc/yum.repos.d/` 中对应的条目。注释 `metalink=` 或 `mirrorlist=`，为 `[rpmfusion-free-updates]` 启用：
+
+```{ztmpl lang="ini"}
+baseurl={{endpoint}}/free/el/updates/9/$basearch/
+```
+
+`[rpmfusion-nonfree-updates]` 对应：
+
+```{ztmpl lang="ini"}
+baseurl={{endpoint}}/nonfree/el/updates/9/$basearch/
+```
+
+保存后刷新元数据：
 
 ```{ztmpl lang="bash"}
-{{sudo}}dnf makecache
+{{sudo}}dnf --refresh makecache
 ```
 
 ## 相关文档
 
-[RPM Fusion 配置](https://rpmfusion.org/Configuration)
+[DNF5 仓库覆盖文件](https://dnf5.readthedocs.io/en/stable/dnf5.conf.5.html#repository-configuration-override)
