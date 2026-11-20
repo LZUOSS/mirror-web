@@ -1,0 +1,9 @@
+_: SPECFEM3D Cartesian 镜像使用帮助
+title: SPECFEM3D Cartesian
+summary: SPECFEM3D Cartesian · 地学地理与水文，官方 Git 源码、公开分支与标签
+mirrorid: specfem3d
+path: scientific/specfem3d
+directory: scientific
+permalink: /scientific/specfem3d/
+block:
+- index

@@ -1,0 +1,9 @@
+_: Ginkgo 镜像使用帮助
+title: Ginkgo
+summary: Ginkgo · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: ginkgo
+path: hpc/ginkgo
+directory: hpc
+permalink: /hpc/ginkgo/guide.html
+block:
+- index

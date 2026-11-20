@@ -1,0 +1,9 @@
+_: ScaLAPACK 镜像使用帮助
+title: ScaLAPACK
+summary: ScaLAPACK · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: scalapack
+path: hpc/scalapack
+directory: hpc
+permalink: /hpc/scalapack/guide.html
+block:
+- index

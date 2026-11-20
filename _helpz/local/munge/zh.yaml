@@ -1,0 +1,9 @@
+_: MUNGE 镜像使用帮助
+title: MUNGE
+summary: MUNGE · 调度与集群环境，稳定官方 Release 作者源码附件
+mirrorid: munge
+path: hpc/munge
+directory: hpc
+permalink: /hpc/munge/guide.html
+block:
+- index

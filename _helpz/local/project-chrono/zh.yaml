@@ -1,0 +1,9 @@
+_: Project Chrono 镜像使用帮助
+title: Project Chrono
+summary: Project Chrono · 流体与多物理场，官方版本化源码发行
+mirrorid: project-chrono
+path: scientific/project-chrono
+directory: scientific
+permalink: /scientific/project-chrono/guide.html
+block:
+- index

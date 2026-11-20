@@ -1,0 +1,9 @@
+_: MFEM 镜像使用帮助
+title: MFEM
+summary: MFEM · 排列、网格及离散，官方稳定源码标签发行
+mirrorid: mfem
+path: hpc/mfem
+directory: hpc
+permalink: /hpc/mfem/guide.html
+block:
+- index

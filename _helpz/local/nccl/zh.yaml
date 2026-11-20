@@ -1,0 +1,9 @@
+_: NCCL 镜像使用帮助
+title: NCCL
+summary: NCCL · 通信与并行，上游稳定源码发行镜像
+mirrorid: nccl
+path: ai-infra/nccl
+directory: ai-infra
+permalink: /ai-infra/nccl/guide.html
+block:
+- index

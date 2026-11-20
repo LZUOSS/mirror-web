@@ -1,0 +1,9 @@
+_: Codex CLI 镜像使用帮助
+title: Codex CLI
+summary: Codex CLI · AI 编程 CLI，官方 GitHub Release 独立客户端镜像
+mirrorid: codex-cli
+path: ai-apps/codex-cli
+directory: ai-apps
+permalink: /ai-apps/codex-cli/guide.html
+block:
+- index

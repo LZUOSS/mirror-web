@@ -1,0 +1,9 @@
+_: Apptainer 镜像使用帮助
+title: Apptainer
+summary: HPC 容器工具 Apptainer 的官方发布源码与 DEB、RPM
+mirrorid: apptainer
+path: hpc/apptainer
+directory: hpc
+permalink: /hpc/apptainer/guide.html
+block:
+- index

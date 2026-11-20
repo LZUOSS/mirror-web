@@ -1,0 +1,9 @@
+_: Arepo 镜像使用帮助
+title: Arepo
+summary: Arepo · 其他科研应用，官方 Git 源码、公开分支与标签
+mirrorid: arepo
+path: scientific/arepo
+directory: scientific
+permalink: /scientific/arepo/
+block:
+- index

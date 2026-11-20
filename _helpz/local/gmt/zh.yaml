@@ -1,0 +1,9 @@
+_: GMT 镜像使用帮助
+title: GMT
+summary: GMT · 地学地理与水文，官方源码及多平台发行附件
+mirrorid: gmt
+path: scientific/gmt
+directory: scientific
+permalink: /scientific/gmt/guide.html
+block:
+- index

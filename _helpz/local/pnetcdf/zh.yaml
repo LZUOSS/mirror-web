@@ -1,0 +1,9 @@
+_: PnetCDF 镜像使用帮助
+title: PnetCDF
+summary: PnetCDF · 文件格式及数据 I/O，官方稳定源码发行
+mirrorid: pnetcdf
+path: hpc/pnetcdf
+directory: hpc
+permalink: /hpc/pnetcdf/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: VisIt 镜像使用帮助
+title: VisIt
+summary: VisIt · 网格与可视化，官方发行源码和多平台安装包
+mirrorid: visit
+path: scientific/visit
+directory: scientific
+permalink: /scientific/visit/guide.html
+block:
+- index

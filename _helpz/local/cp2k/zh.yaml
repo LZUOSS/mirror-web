@@ -1,0 +1,9 @@
+_: CP2K 镜像使用帮助
+title: CP2K
+summary: CP2K · 分子模拟与材料，官方作者发布源码和现有官方本机二进制
+mirrorid: cp2k
+path: scientific/cp2k
+directory: scientific
+permalink: /scientific/cp2k/guide.html
+block:
+- index

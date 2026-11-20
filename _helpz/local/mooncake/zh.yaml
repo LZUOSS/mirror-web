@@ -1,0 +1,9 @@
+_: Mooncake 镜像使用帮助
+title: Mooncake
+summary: Mooncake · Attention 与缓存，上游稳定源码与官方发行附件
+mirrorid: mooncake
+path: ai-infra/mooncake
+directory: ai-infra
+permalink: /ai-infra/mooncake/guide.html
+block:
+- index

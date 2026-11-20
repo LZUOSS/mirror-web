@@ -1,0 +1,9 @@
+_: Megatron Bridge 镜像使用帮助
+title: Megatron Bridge
+summary: Megatron Bridge · 分布式训练，上游稳定源码发行镜像
+mirrorid: megatron-bridge
+path: ai-infra/megatron-bridge
+directory: ai-infra
+permalink: /ai-infra/megatron-bridge/guide.html
+block:
+- index

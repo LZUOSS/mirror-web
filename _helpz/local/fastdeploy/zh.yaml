@@ -1,0 +1,9 @@
+_: FastDeploy 镜像使用帮助
+title: FastDeploy
+summary: FastDeploy · 推理引擎，上游稳定源码和项目专用安装索引
+mirrorid: fastdeploy
+path: ai-infra/fastdeploy
+directory: ai-infra
+permalink: /ai-infra/fastdeploy/guide.html
+block:
+- index

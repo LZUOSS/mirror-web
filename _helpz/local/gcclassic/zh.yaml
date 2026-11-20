@@ -1,0 +1,9 @@
+_: GCClassic 镜像使用帮助
+title: GCClassic
+summary: GEOS-Chem Classic 的官方 Git 分支、标签与提交历史
+mirrorid: gcclassic
+path: scientific/gcclassic
+directory: scientific
+permalink: /scientific/gcclassic/
+block:
+- index

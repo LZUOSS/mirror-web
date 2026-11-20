@@ -1,0 +1,9 @@
+_: OpenVINO 镜像使用帮助
+title: OpenVINO
+summary: OpenVINO · 推理引擎，上游稳定源码与官方发行附件
+mirrorid: openvino
+path: ai-infra/openvino
+directory: ai-infra
+permalink: /ai-infra/openvino/guide.html
+block:
+- index

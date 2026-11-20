@@ -1,0 +1,9 @@
+_: MeshLab 镜像使用帮助
+title: MeshLab
+summary: MeshLab · 网格与可视化，官方多平台二进制发行附件
+mirrorid: meshlab
+path: scientific/meshlab
+directory: scientific
+permalink: /scientific/meshlab/guide.html
+block:
+- index

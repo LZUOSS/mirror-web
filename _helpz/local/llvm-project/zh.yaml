@@ -1,0 +1,9 @@
+_: LLVM Project 镜像使用帮助
+title: LLVM Project
+summary: LLVM 和 Clang 工具链的 GitHub Releases 源码、预编译安装包及校验文件
+mirrorid: llvm-project
+path: hpc/llvm-project
+directory: hpc
+permalink: /hpc/llvm-project/guide.html
+block:
+- index

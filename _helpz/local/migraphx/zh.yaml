@@ -1,0 +1,9 @@
+_: MIGraphX 镜像使用帮助
+title: MIGraphX
+summary: MIGraphX · 编译器与 DSL，上游稳定源码发行镜像
+mirrorid: migraphx
+path: ai-infra/migraphx
+directory: ai-infra
+permalink: /ai-infra/migraphx/guide.html
+block:
+- index

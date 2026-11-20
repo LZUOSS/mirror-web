@@ -1,0 +1,9 @@
+_: HOOMD-blue 镜像使用帮助
+title: HOOMD-blue
+summary: HOOMD-blue · 分子模拟与材料，官方版本化源码发行
+mirrorid: hoomd-blue
+path: scientific/hoomd-blue
+directory: scientific
+permalink: /scientific/hoomd-blue/guide.html
+block:
+- index

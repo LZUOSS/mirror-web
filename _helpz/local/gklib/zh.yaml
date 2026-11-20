@@ -1,0 +1,9 @@
+_: GKlib 镜像使用帮助
+title: GKlib
+summary: GKlib · 排列、网格及离散，官方 Git 源码、公开分支与标签
+mirrorid: gklib
+path: hpc/gklib
+directory: hpc
+permalink: /hpc/gklib/
+block:
+- index

@@ -1,0 +1,9 @@
+_: MOM6 镜像使用帮助
+title: MOM6
+summary: MOM6 · 气象气候与海洋，官方 Git 源码、公开分支与标签
+mirrorid: mom6
+path: scientific/mom6
+directory: scientific
+permalink: /scientific/mom6/
+block:
+- index

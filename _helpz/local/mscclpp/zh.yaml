@@ -1,0 +1,9 @@
+_: MSCCL++ 镜像使用帮助
+title: MSCCL++
+summary: MSCCL++ · 通信与并行，上游稳定源码发行镜像
+mirrorid: mscclpp
+path: ai-infra/mscclpp
+directory: ai-infra
+permalink: /ai-infra/mscclpp/guide.html
+block:
+- index

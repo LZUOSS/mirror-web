@@ -1,0 +1,9 @@
+_: Score-P 镜像使用帮助
+title: Score-P
+summary: Score-P · 性能分析与基准，官方稳定源码标签发行
+mirrorid: score-p
+path: hpc/score-p
+directory: hpc
+permalink: /hpc/score-p/guide.html
+block:
+- index

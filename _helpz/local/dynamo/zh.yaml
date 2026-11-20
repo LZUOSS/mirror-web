@@ -1,0 +1,9 @@
+_: NVIDIA Dynamo 镜像使用帮助
+title: NVIDIA Dynamo
+summary: NVIDIA Dynamo · 部署与资源，上游稳定源码与官方发行附件
+mirrorid: dynamo
+path: ai-infra/dynamo
+directory: ai-infra
+permalink: /ai-infra/dynamo/guide.html
+block:
+- index

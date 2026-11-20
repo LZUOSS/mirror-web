@@ -1,0 +1,9 @@
+_: RAJA 镜像使用帮助
+title: RAJA
+summary: RAJA · 编译构建及部署，稳定官方 Release 作者源码附件
+mirrorid: raja
+path: hpc/raja
+directory: hpc
+permalink: /hpc/raja/guide.html
+block:
+- index

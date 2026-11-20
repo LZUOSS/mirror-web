@@ -1,0 +1,9 @@
+_: CMake 镜像使用帮助
+title: CMake
+summary: CMake · 编译构建及部署，稳定官方 Release 源码与安装附件
+mirrorid: cmake
+path: hpc/cmake
+directory: hpc
+permalink: /hpc/cmake/guide.html
+block:
+- index

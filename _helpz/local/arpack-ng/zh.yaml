@@ -1,0 +1,9 @@
+_: ARPACK-NG 镜像使用帮助
+title: ARPACK-NG
+summary: ARPACK-NG · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: arpack-ng
+path: hpc/arpack-ng
+directory: hpc
+permalink: /hpc/arpack-ng/guide.html
+block:
+- index

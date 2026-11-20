@@ -1,0 +1,9 @@
+_: OpenBLAS 镜像使用帮助
+title: OpenBLAS
+summary: OpenBLAS · 线性代数与求解器，稳定官方 Release 作者源码附件
+mirrorid: openblas
+path: hpc/openblas
+directory: hpc
+permalink: /hpc/openblas/guide.html
+block:
+- index

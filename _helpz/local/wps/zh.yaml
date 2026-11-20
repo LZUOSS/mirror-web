@@ -2,7 +2,7 @@ _: WPS 镜像使用帮助
 title: WPS
 summary: WRF 预处理系统的源码发行
 path: scientific/wps
-directory: science
+directory: scientific
 permalink: /scientific/wps/guide.html
 block:
   - index

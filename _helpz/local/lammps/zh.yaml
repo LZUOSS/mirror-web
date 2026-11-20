@@ -1,0 +1,9 @@
+_: LAMMPS 镜像使用帮助
+title: LAMMPS
+summary: LAMMPS · 分子模拟与材料，作者稳定版源码及官方多平台二进制
+mirrorid: lammps
+path: scientific/lammps
+directory: scientific
+permalink: /scientific/lammps/guide.html
+block:
+- index

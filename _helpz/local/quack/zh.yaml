@@ -1,0 +1,9 @@
+_: QuACK 镜像使用帮助
+title: QuACK
+summary: QuACK · GEMM 与算子，官方 Git 源码、公开分支与标签
+mirrorid: quack
+path: ai-infra/quack
+directory: ai-infra
+permalink: /ai-infra/quack/
+block:
+- index

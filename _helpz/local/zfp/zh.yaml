@@ -1,0 +1,9 @@
+_: zfp 镜像使用帮助
+title: zfp
+summary: zfp · 文件格式及数据 I/O，稳定官方 Release 作者源码附件
+mirrorid: zfp
+path: hpc/zfp
+directory: hpc
+permalink: /hpc/zfp/guide.html
+block:
+- index

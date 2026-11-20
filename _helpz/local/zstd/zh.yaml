@@ -1,0 +1,9 @@
+_: Zstandard 镜像使用帮助
+title: Zstandard
+summary: Zstandard · 文件格式及数据 I/O，官方稳定源码发行
+mirrorid: zstd
+path: hpc/zstd
+directory: hpc
+permalink: /hpc/zstd/guide.html
+block:
+- index

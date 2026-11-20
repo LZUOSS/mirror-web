@@ -1,0 +1,9 @@
+_: UCX 镜像使用帮助
+title: UCX
+summary: UCX · MPI 与通信，稳定官方 Release 作者源码附件
+mirrorid: ucx
+path: hpc/ucx
+directory: hpc
+permalink: /hpc/ucx/guide.html
+block:
+- index

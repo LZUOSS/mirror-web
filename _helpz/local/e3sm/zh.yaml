@@ -1,0 +1,9 @@
+_: E3SM 镜像使用帮助
+title: E3SM
+summary: E3SM 地球系统模型的官方 Git 分支、标签与提交历史
+mirrorid: e3sm
+path: scientific/e3sm
+directory: scientific
+permalink: /scientific/e3sm/
+block:
+- index

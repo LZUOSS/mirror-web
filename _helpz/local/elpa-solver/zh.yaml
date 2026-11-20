@@ -1,0 +1,9 @@
+_: ELPA 镜像使用帮助
+title: ELPA
+summary: ELPA · 线性代数与求解器，官方稳定源码发行
+mirrorid: elpa-solver
+path: hpc/elpa
+directory: hpc
+permalink: /hpc/elpa/guide.html
+block:
+- index

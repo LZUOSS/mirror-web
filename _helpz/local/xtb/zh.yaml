@@ -1,0 +1,9 @@
+_: xTB 镜像使用帮助
+title: xTB
+summary: xTB · 分子模拟与材料，官方源码及多平台发行附件
+mirrorid: xtb
+path: scientific/xtb
+directory: scientific
+permalink: /scientific/xtb/guide.html
+block:
+- index

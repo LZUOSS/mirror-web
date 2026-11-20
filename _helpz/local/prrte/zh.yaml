@@ -1,0 +1,9 @@
+_: PRRTE 镜像使用帮助
+title: PRRTE
+summary: PRRTE · MPI 与通信，全部稳定版本的官方源码归档及校验
+mirrorid: prrte
+path: hpc/prrte
+directory: hpc
+permalink: /hpc/prrte/guide.html
+block:
+- index

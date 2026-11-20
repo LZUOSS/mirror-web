@@ -1,0 +1,9 @@
+_: Extrae 镜像使用帮助
+title: Extrae
+summary: Extrae · 性能分析与基准，官方稳定源码标签发行
+mirrorid: extrae
+path: hpc/extrae
+directory: hpc
+permalink: /hpc/extrae/guide.html
+block:
+- index

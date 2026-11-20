@@ -1,0 +1,9 @@
+_: GLM-skills 镜像使用帮助
+title: GLM-skills
+summary: GLM-skills · GLM · Z.ai，官方 Git 源码、公开分支与标签
+mirrorid: glm-skills
+path: ai-infra/zai-org/glm-skills
+directory: ai-infra/zai-org
+permalink: /ai-infra/zai-org/glm-skills/
+block:
+- index

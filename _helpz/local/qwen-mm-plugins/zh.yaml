@@ -1,0 +1,9 @@
+_: Qwen-MM-Plugins 镜像使用帮助
+title: Qwen-MM-Plugins
+summary: Qwen-MM-Plugins · Qwen，官方 Git 源码、公开分支与标签
+mirrorid: qwen-mm-plugins
+path: ai-infra/qwenlm/qwen-mm-plugins
+directory: ai-infra/qwenlm
+permalink: /ai-infra/qwenlm/qwen-mm-plugins/
+block:
+- index

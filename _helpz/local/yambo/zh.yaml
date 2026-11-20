@@ -1,0 +1,9 @@
+_: Yambo 镜像使用帮助
+title: Yambo
+summary: Yambo 多体微扰计算软件的官方 Git 分支、标签与提交历史
+mirrorid: yambo
+path: scientific/yambo
+directory: scientific
+permalink: /scientific/yambo/
+block:
+- index

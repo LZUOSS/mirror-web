@@ -1,0 +1,9 @@
+_: MAGMA 镜像使用帮助
+title: MAGMA
+summary: MAGMA · 线性代数与求解器，官方稳定源码发行
+mirrorid: magma
+path: hpc/magma
+directory: hpc
+permalink: /hpc/magma/guide.html
+block:
+- index

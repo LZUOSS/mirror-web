@@ -1,0 +1,9 @@
+_: CM1 镜像使用帮助
+title: CM1
+summary: CM1 · 气象气候与海洋，官方版本化源码发行
+mirrorid: cm1
+path: scientific/cm1
+directory: scientific
+permalink: /scientific/cm1/guide.html
+block:
+- index

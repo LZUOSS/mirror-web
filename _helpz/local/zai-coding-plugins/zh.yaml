@@ -1,0 +1,9 @@
+_: zai-coding-plugins 镜像使用帮助
+title: zai-coding-plugins
+summary: zai-coding-plugins · GLM · Z.ai，官方 Git 源码、公开分支与标签
+mirrorid: zai-coding-plugins
+path: ai-infra/zai-org/zai-coding-plugins
+directory: ai-infra/zai-org
+permalink: /ai-infra/zai-org/zai-coding-plugins/
+block:
+- index

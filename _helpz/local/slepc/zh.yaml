@@ -1,0 +1,9 @@
+_: SLEPc 镜像使用帮助
+title: SLEPc
+summary: SLEPc · 线性代数与求解器，官方稳定源码发行
+mirrorid: slepc
+path: hpc/slepc
+directory: hpc
+permalink: /hpc/slepc/guide.html
+block:
+- index

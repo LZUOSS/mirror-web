@@ -1,0 +1,9 @@
+_: kimi-code-zed-extension 镜像使用帮助
+title: kimi-code-zed-extension
+summary: kimi-code-zed-extension · Kimi · MoonshotAI，官方 Git 源码、公开分支与标签
+mirrorid: kimi-code-zed-extension
+path: ai-infra/moonshotai/kimi-code-zed-extension
+directory: ai-infra/moonshotai
+permalink: /ai-infra/moonshotai/kimi-code-zed-extension/
+block:
+- index

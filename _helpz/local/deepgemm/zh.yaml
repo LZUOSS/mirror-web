@@ -1,0 +1,9 @@
+_: DeepGEMM 镜像使用帮助
+title: DeepGEMM
+summary: DeepGEMM 官方 GPU 矩阵计算库稳定 wheel，按 CUDA、PyTorch 与 Python 版本分发
+mirrorid: deepgemm
+path: ai-infra/deepseek-ai/deepgemm
+directory: ai-infra/deepseek-ai
+permalink: /ai-infra/deepseek-ai/deepgemm/guide.html
+block:
+- index

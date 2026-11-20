@@ -1,0 +1,9 @@
+_: HDF5 镜像使用帮助
+title: HDF5
+summary: HDF5 · 文件格式及数据 I/O，官方稳定源码发行
+mirrorid: hdf5
+path: hpc/hdf5
+directory: hpc
+permalink: /hpc/hdf5/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: DMTCP 镜像使用帮助
+title: DMTCP
+summary: DMTCP · 调度与集群环境，官方稳定源码标签发行
+mirrorid: dmtcp
+path: hpc/dmtcp
+directory: hpc
+permalink: /hpc/dmtcp/guide.html
+block:
+- index

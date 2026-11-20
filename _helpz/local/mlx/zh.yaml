@@ -1,0 +1,9 @@
+_: MLX 镜像使用帮助
+title: MLX
+summary: MLX · 核心框架，上游稳定源码发行镜像
+mirrorid: mlx
+path: ai-infra/mlx
+directory: ai-infra
+permalink: /ai-infra/mlx/guide.html
+block:
+- index

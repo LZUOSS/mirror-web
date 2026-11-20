@@ -1,0 +1,9 @@
+_: DualSPHysics 镜像使用帮助
+title: DualSPHysics
+summary: DualSPHysics · 流体与多物理场，官方源码及多平台发行附件
+mirrorid: dualsphysics
+path: scientific/dualsphysics
+directory: scientific
+permalink: /scientific/dualsphysics/guide.html
+block:
+- index

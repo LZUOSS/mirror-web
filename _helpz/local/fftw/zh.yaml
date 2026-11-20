@@ -1,0 +1,9 @@
+_: FFTW 镜像使用帮助
+title: FFTW
+summary: FFTW · FFT 与通用数值，官方稳定源码发行
+mirrorid: fftw
+path: hpc/fftw
+directory: hpc
+permalink: /hpc/fftw/guide.html
+block:
+- index

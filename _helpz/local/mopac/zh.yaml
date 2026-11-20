@@ -1,0 +1,9 @@
+_: MOPAC 镜像使用帮助
+title: MOPAC
+summary: MOPAC · 分子模拟与材料，官方多平台二进制发行附件
+mirrorid: mopac
+path: scientific/mopac
+directory: scientific
+permalink: /scientific/mopac/guide.html
+block:
+- index

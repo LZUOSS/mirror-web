@@ -1,0 +1,9 @@
+_: Ninja 镜像使用帮助
+title: Ninja
+summary: Ninja · 编译构建及部署，稳定官方 Release 全平台二进制
+mirrorid: ninja
+path: hpc/ninja
+directory: hpc
+permalink: /hpc/ninja/guide.html
+block:
+- index

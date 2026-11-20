@@ -1,0 +1,9 @@
+_: OpenCode 镜像使用帮助
+title: OpenCode
+summary: OpenCode 终端 AI 编程助手和各平台桌面安装包
+mirrorid: opencode
+path: ai-apps/opencode
+directory: ai-apps
+permalink: /ai-apps/opencode/guide.html
+block:
+- index

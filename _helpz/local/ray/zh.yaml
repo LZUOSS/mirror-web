@@ -1,0 +1,9 @@
+_: Ray 镜像使用帮助
+title: Ray
+summary: Ray · 部署与资源，上游稳定源码与官方发行附件
+mirrorid: ray
+path: ai-infra/ray
+directory: ai-infra
+permalink: /ai-infra/ray/guide.html
+block:
+- index

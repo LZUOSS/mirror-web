@@ -1,21 +1,754 @@
 hpc:
   title: 高性能计算
   entries:
-    - name: HPCG
-      url: /hpc/hpcg/
-      help: /hpc/hpcg/guide.html
-    - name: LZ4
-      url: /hpc/lz4/
-      help: /hpc/lz4/guide.html
-science:
+  - name: FFTW
+    url: /hpc/fftw/
+    help: /hpc/fftw/guide.html
+  - name: Open MPI
+    url: /hpc/openmpi/
+    help: /hpc/openmpi/guide.html
+  - name: HDF5
+    url: /hpc/hdf5/
+    help: /hpc/hdf5/guide.html
+  - name: NetCDF-C
+    url: /hpc/netcdf-c/
+    help: /hpc/netcdf-c/guide.html
+  - name: NetCDF-Fortran
+    url: /hpc/netcdf-fortran/
+    help: /hpc/netcdf-fortran/guide.html
+  - name: heFFTe
+    url: /hpc/heffte/
+    help: /hpc/heffte/guide.html
+  - name: KissFFT
+    url: /hpc/kissfft/
+    help: /hpc/kissfft/guide.html
+  - name: GASNet-EX
+    url: /hpc/gasnet-ex/
+    help: /hpc/gasnet-ex/guide.html
+  - name: hwloc
+    url: /hpc/hwloc/
+    help: /hpc/hwloc/guide.html
+  - name: libevent
+    url: /hpc/libevent/
+    help: /hpc/libevent/guide.html
+  - name: libfabric
+    url: /hpc/libfabric/
+    help: /hpc/libfabric/guide.html
+  - name: libuv
+    url: /hpc/libuv/
+    help: /hpc/libuv/guide.html
+  - name: MPICH
+    url: /hpc/mpich/
+    help: /hpc/mpich/guide.html
+  - name: OpenPMIx
+    url: /hpc/openpmix/
+    help: /hpc/openpmix/guide.html
+  - name: PRRTE
+    url: /hpc/prrte/
+    help: /hpc/prrte/guide.html
+  - name: rdma-core
+    url: /hpc/rdma-core/
+    help: /hpc/rdma-core/guide.html
+  - name: UCX
+    url: /hpc/ucx/
+    help: /hpc/ucx/guide.html
+  - name: Caliper
+    url: /hpc/caliper/
+    help: /hpc/caliper/guide.html
+  - name: Extrae
+    url: /hpc/extrae/
+    help: /hpc/extrae/guide.html
+  - name: HPCG
+    url: /hpc/hpcg/
+    help: /hpc/hpcg/guide.html
+  - name: HPCToolkit
+    url: /hpc/hpctoolkit/
+    help: /hpc/hpctoolkit/guide.html
+  - name: HPL
+    url: /hpc/hpl/
+    help: /hpc/hpl/guide.html
+  - name: LIKWID
+    url: /hpc/likwid/
+    help: /hpc/likwid/guide.html
+  - name: OSU Micro-Benchmarks
+    url: /hpc/osu-micro-benchmarks/
+    help: /hpc/osu-micro-benchmarks/guide.html
+  - name: PAPI
+    url: /hpc/papi/
+    help: /hpc/papi/guide.html
+  - name: Score-P
+    url: /hpc/score-p/
+    help: /hpc/score-p/guide.html
+  - name: AMReX
+    url: /hpc/amrex/
+    help: /hpc/amrex/guide.html
+  - name: CGAL
+    url: /hpc/cgal/
+    help: /hpc/cgal/guide.html
+  - name: deal.II
+    url: /hpc/deal-ii/
+    help: /hpc/deal-ii/guide.html
+  - name: GeographicLib
+    url: /hpc/geographiclib/
+    help: /hpc/geographiclib/guide.html
+  - name: GKlib
+    url: /hpc/gklib/
+  - name: libMesh
+    url: /hpc/libmesh/
+    help: /hpc/libmesh/guide.html
+  - name: METIS
+    url: /hpc/metis/
+    help: /hpc/metis/guide.html
+  - name: MFEM
+    url: /hpc/mfem/
+    help: /hpc/mfem/guide.html
+  - name: p4est
+    url: /hpc/p4est/
+    help: /hpc/p4est/guide.html
+  - name: PROJ
+    url: /hpc/proj/
+    help: /hpc/proj/guide.html
+  - name: Scotch / PT-Scotch
+    url: /hpc/scotch/
+    help: /hpc/scotch/guide.html
+  - name: ADIOS2
+    url: /hpc/adios2/
+    help: /hpc/adios2/guide.html
+  - name: C-Blosc2
+    url: /hpc/c-blosc2/
+    help: /hpc/c-blosc2/guide.html
+  - name: curl / libcurl
+    url: /hpc/libcurl/
+    help: /hpc/libcurl/guide.html
+  - name: Darshan
+    url: /hpc/darshan/
+    help: /hpc/darshan/guide.html
+  - name: HDF4
+    url: /hpc/hdf4/
+    help: /hpc/hdf4/guide.html
+  - name: IOR / mdtest
+    url: /hpc/ior/
+    help: /hpc/ior/guide.html
+  - name: libgeotiff
+    url: /hpc/libgeotiff/
+    help: /hpc/libgeotiff/guide.html
+  - name: LZ4
+    url: /hpc/lz4/
+    help: /hpc/lz4/guide.html
+  - name: NetCDF-CXX4
+    url: /hpc/netcdf-cxx4/
+    help: /hpc/netcdf-cxx4/guide.html
+  - name: PnetCDF
+    url: /hpc/pnetcdf/
+    help: /hpc/pnetcdf/guide.html
+  - name: SZ3
+    url: /hpc/sz3/
+    help: /hpc/sz3/guide.html
+  - name: zfp
+    url: /hpc/zfp/
+    help: /hpc/zfp/guide.html
+  - name: Zstandard
+    url: /hpc/zstd/
+    help: /hpc/zstd/guide.html
+  - name: ARPACK-NG
+    url: /hpc/arpack-ng/
+    help: /hpc/arpack-ng/guide.html
+  - name: BLIS
+    url: /hpc/blis/
+    help: /hpc/blis/guide.html
+  - name: Eigen
+    url: /hpc/eigen/
+    help: /hpc/eigen/guide.html
+  - name: ELPA
+    url: /hpc/elpa/
+    help: /hpc/elpa/guide.html
+  - name: Ginkgo
+    url: /hpc/ginkgo/
+    help: /hpc/ginkgo/guide.html
+  - name: hypre
+    url: /hpc/hypre/
+    help: /hpc/hypre/guide.html
+  - name: LAPACK
+    url: /hpc/lapack/
+    help: /hpc/lapack/guide.html
+  - name: LIBXSMM
+    url: /hpc/libxsmm/
+    help: /hpc/libxsmm/guide.html
+  - name: MAGMA
+    url: /hpc/magma/
+    help: /hpc/magma/guide.html
+  - name: OpenBLAS
+    url: /hpc/openblas/
+    help: /hpc/openblas/guide.html
+  - name: PETSc
+    url: /hpc/petsc/
+    help: /hpc/petsc/guide.html
+  - name: ScaLAPACK
+    url: /hpc/scalapack/
+    help: /hpc/scalapack/guide.html
+  - name: SLATE
+    url: /hpc/slate/
+    help: /hpc/slate/guide.html
+  - name: SLEPc
+    url: /hpc/slepc/
+    help: /hpc/slepc/guide.html
+  - name: SUNDIALS
+    url: /hpc/sundials/
+    help: /hpc/sundials/guide.html
+  - name: CMake
+    url: /hpc/cmake/
+    help: /hpc/cmake/guide.html
+  - name: fmt
+    url: /hpc/fmt/
+    help: /hpc/fmt/guide.html
+  - name: Kokkos
+    url: /hpc/kokkos/
+    help: /hpc/kokkos/guide.html
+  - name: Kokkos Kernels
+    url: /hpc/kokkos-kernels/
+    help: /hpc/kokkos-kernels/guide.html
+  - name: LLVM Project
+    url: /hpc/llvm-project/
+    help: /hpc/llvm-project/guide.html
+  - name: Ninja
+    url: /hpc/ninja/
+    help: /hpc/ninja/guide.html
+  - name: nlohmann/json
+    url: /hpc/nlohmann-json/
+    help: /hpc/nlohmann-json/guide.html
+  - name: pybind11
+    url: /hpc/pybind11/
+    help: /hpc/pybind11/guide.html
+  - name: RAJA
+    url: /hpc/raja/
+    help: /hpc/raja/guide.html
+  - name: Spack
+    url: /hpc/spack/
+    help: /hpc/spack/guide.html
+  - name: spdlog
+    url: /hpc/spdlog/
+    help: /hpc/spdlog/guide.html
+  - name: Umpire
+    url: /hpc/umpire/
+    help: /hpc/umpire/guide.html
+  - name: yaml-cpp
+    url: /hpc/yaml-cpp/
+    help: /hpc/yaml-cpp/guide.html
+  - name: Apptainer
+    url: /hpc/apptainer/
+    help: /hpc/apptainer/guide.html
+  - name: DMTCP
+    url: /hpc/dmtcp/
+    help: /hpc/dmtcp/guide.html
+  - name: Environment Modules
+    url: /hpc/environment-modules/
+    help: /hpc/environment-modules/guide.html
+  - name: MUNGE
+    url: /hpc/munge/
+    help: /hpc/munge/guide.html
+  - name: OpenPBS
+    url: /hpc/openpbs/
+    help: /hpc/openpbs/guide.html
+  - name: Slurm
+    url: /hpc/slurm/
+    help: /hpc/slurm/guide.html
+scientific:
   title: 科学计算
   entries:
-    - name: WPS
-      url: /scientific/wps/
-      help: /scientific/wps/guide.html
+  - name: ecCodes
+    url: /scientific/eccodes/
+    help: /scientific/eccodes/guide.html
+  - name: WPS
+    url: /scientific/wps/
+    help: /scientific/wps/guide.html
+  - name: WRF
+    url: /scientific/wrf/
+    help: /scientific/wrf/guide.html
+  - name: OpenFOAM Foundation
+    url: /scientific/openfoam-foundation/
+    help: /scientific/openfoam-foundation/guide.html
+  - name: OpenFOAM OpenCFD
+    url: /scientific/openfoam-opencfd/
+    help: /scientific/openfoam-opencfd/guide.html
+  - name: Arepo
+    url: /scientific/arepo/
+  - name: AthenaK
+    url: /scientific/athena-k/
+  - name: Enzo-E
+    url: /scientific/enzo-e/
+  - name: GADGET-4
+    url: /scientific/gadget4/
+  - name: SWIFT
+    url: /scientific/swiftsim/
+    help: /scientific/swiftsim/guide.html
+  - name: CP2K
+    url: /scientific/cp2k/
+    help: /scientific/cp2k/guide.html
+  - name: DFTB+
+    url: /scientific/dftbplus/
+    help: /scientific/dftbplus/guide.html
+  - name: ELSI
+    url: /scientific/elsi/
+  - name: exciting
+    url: /scientific/exciting/
+    help: /scientific/exciting/guide.html
+  - name: GPU4PySCF
+    url: /scientific/gpu4pyscf/
+    help: /scientific/gpu4pyscf/guide.html
+  - name: GROMACS
+    url: /scientific/gromacs/
+    help: /scientific/gromacs/guide.html
+  - name: HOOMD-blue
+    url: /scientific/hoomd-blue/
+    help: /scientific/hoomd-blue/guide.html
+  - name: LAMMPS
+    url: /scientific/lammps/
+    help: /scientific/lammps/guide.html
+  - name: MOPAC
+    url: /scientific/mopac/
+    help: /scientific/mopac/guide.html
+  - name: NWChem
+    url: /scientific/nwchem/
+    help: /scientific/nwchem/guide.html
+  - name: OpenMM
+    url: /scientific/openmm/
+    help: /scientific/openmm/guide.html
+  - name: PLUMED
+    url: /scientific/plumed/
+    help: /scientific/plumed/guide.html
+  - name: Psi4
+    url: /scientific/psi4/
+    help: /scientific/psi4/guide.html
+  - name: QMCPACK
+    url: /scientific/qmcpack/
+  - name: Quantum ESPRESSO
+    url: /scientific/quantum-espresso/
+    help: /scientific/quantum-espresso/guide.html
+  - name: SIESTA
+    url: /scientific/siesta/
+    help: /scientific/siesta/guide.html
+  - name: Wannier90
+    url: /scientific/wannier90/
+    help: /scientific/wannier90/guide.html
+  - name: xTB
+    url: /scientific/xtb/
+    help: /scientific/xtb/guide.html
+  - name: Yambo
+    url: /scientific/yambo/
+  - name: ASPECT
+    url: /scientific/aspect/
+  - name: GDAL
+    url: /scientific/gdal/
+    help: /scientific/gdal/guide.html
+  - name: GMT
+    url: /scientific/gmt/
+    help: /scientific/gmt/guide.html
+  - name: GRASS GIS
+    url: /scientific/grass-gis/
+    help: /scientific/grass-gis/guide.html
+  - name: ISSM
+    url: /scientific/issm/
+  - name: MODFLOW 6
+    url: /scientific/modflow6/
+    help: /scientific/modflow6/guide.html
+  - name: ParFlow
+    url: /scientific/parflow/
+  - name: PDAL
+    url: /scientific/pdal/
+    help: /scientific/pdal/guide.html
+  - name: PISM
+    url: /scientific/pism/
+  - name: QGIS
+    url: /scientific/qgis/
+    help: /scientific/qgis/guide.html
+  - name: SeisSol
+    url: /scientific/seissol/
+  - name: SPECFEM3D Cartesian
+    url: /scientific/specfem3d/
+  - name: SPECFEM3D Globe
+    url: /scientific/specfem3d-globe/
+  - name: WhiteboxTools
+    url: /scientific/whitebox-tools/
+    help: /scientific/whitebox-tools/guide.html
+  - name: MET
+    url: /scientific/met/
+    help: /scientific/met/guide.html
+  - name: METplus
+    url: /scientific/metplus/
+    help: /scientific/metplus/guide.html
+  - name: CESM
+    url: /scientific/cesm/
+  - name: CM1
+    url: /scientific/cm1/
+    help: /scientific/cm1/guide.html
+  - name: E3SM
+    url: /scientific/e3sm/
+  - name: FV3
+    url: /scientific/fv3/
+  - name: GCClassic
+    url: /scientific/gcclassic/
+  - name: GCHP
+    url: /scientific/geos-chem-gchp/
+  - name: GEOS-Chem
+    url: /scientific/geos-chem/
+    help: /scientific/geos-chem/guide.html
+  - name: MITgcm
+    url: /scientific/mitgcm/
+  - name: MOM6
+    url: /scientific/mom6/
+  - name: MPAS-Model
+    url: /scientific/mpas-model/
+  - name: NEMO
+    url: /scientific/nemo-ocean/
+  - name: ROMS
+    url: /scientific/roms/
+  - name: UFS Weather Model
+    url: /scientific/ufs-weather-model/
+  - name: code_saturne
+    url: /scientific/code-saturne/
+    help: /scientific/code-saturne/guide.html
+  - name: DualSPHysics
+    url: /scientific/dualsphysics/
+    help: /scientific/dualsphysics/guide.html
+  - name: Elmer FEM
+    url: /scientific/elmerfem/
+    help: /scientific/elmerfem/guide.html
+  - name: Exudyn
+    url: /scientific/exudyn/
+    help: /scientific/exudyn/guide.html
+  - name: MOOSE
+    url: /scientific/moose/
+  - name: Nek5000
+    url: /scientific/nek5000/
+    help: /scientific/nek5000/guide.html
+  - name: NekRS
+    url: /scientific/nekrs/
+    help: /scientific/nekrs/guide.html
+  - name: Palabos
+    url: /scientific/palabos/
+    help: /scientific/palabos/guide.html
+  - name: PeleC
+    url: /scientific/pelec/
+  - name: Project Chrono
+    url: /scientific/project-chrono/
+    help: /scientific/project-chrono/guide.html
+  - name: SU2
+    url: /scientific/su2/
+    help: /scientific/su2/guide.html
+  - name: CloudCompare
+    url: /scientific/cloudcompare/
+    help: /scientific/cloudcompare/guide.html
+  - name: MeshLab
+    url: /scientific/meshlab/
+    help: /scientific/meshlab/guide.html
+  - name: Netgen
+    url: /scientific/netgen/
+    help: /scientific/netgen/guide.html
+  - name: NGSolve
+    url: /scientific/ngsolve/
+    help: /scientific/ngsolve/guide.html
+  - name: Open3D
+    url: /scientific/open3d/
+    help: /scientific/open3d/guide.html
+  - name: VAPOR
+    url: /scientific/vapor/
+    help: /scientific/vapor/guide.html
+  - name: VisIt
+    url: /scientific/visit/
+    help: /scientific/visit/guide.html
+  - name: VTK
+    url: /scientific/vtk/
+    help: /scientific/vtk/guide.html
 ai-infra:
   title: AI 基础设施
   entries:
-    - name: Optimum Quanto
-      url: /ai-infra/optimum-quanto/
-      help: /ai-infra/optimum-quanto/guide.html
+  - name: FlashInfer
+    url: /ai-infra/flashinfer/
+    help: /ai-infra/flashinfer/guide.html
+  - name: DeepSeek
+    url: /ai-infra/deepseek-ai/
+  - name: NVIDIA CUTLASS
+    url: /ai-infra/cutlass/
+    help: /ai-infra/cutlass/guide.html
+  - name: Flash Linear Attention
+    url: /ai-infra/flash-linear-attention/
+    help: /ai-infra/flash-linear-attention/guide.html
+  - name: Mooncake
+    url: /ai-infra/mooncake/
+    help: /ai-infra/mooncake/guide.html
+  - name: xFormers
+    url: /ai-infra/xformers/
+    help: /ai-infra/xformers/guide.html
+  - name: AITER
+    url: /ai-infra/aiter/
+  - name: cuDNN Frontend
+    url: /ai-infra/cudnn-frontend/
+    help: /ai-infra/cudnn-frontend/guide.html
+  - name: FBGEMM
+    url: /ai-infra/fbgemm/
+    help: /ai-infra/fbgemm/guide.html
+  - name: Liger Kernel
+    url: /ai-infra/liger-kernel/
+    help: /ai-infra/liger-kernel/guide.html
+  - name: oneDNN
+    url: /ai-infra/one-dnn/
+    help: /ai-infra/one-dnn/guide.html
+  - name: QuACK
+    url: /ai-infra/quack/
+  - name: ThunderKittens
+    url: /ai-infra/thunderkittens/
+  - name: Accelerate
+    url: /ai-infra/accelerate/
+    help: /ai-infra/accelerate/guide.html
+  - name: Colossal-AI
+    url: /ai-infra/colossalai/
+    help: /ai-infra/colossalai/guide.html
+  - name: DeepSpeed
+    url: /ai-infra/deepspeed/
+    help: /ai-infra/deepspeed/guide.html
+  - name: Lightning
+    url: /ai-infra/lightning/
+    help: /ai-infra/lightning/guide.html
+  - name: Megatron Bridge
+    url: /ai-infra/megatron-bridge/
+    help: /ai-infra/megatron-bridge/guide.html
+  - name: Megatron-LM / Megatron Core
+    url: /ai-infra/megatron-lm/
+    help: /ai-infra/megatron-lm/guide.html
+  - name: veRL
+    url: /ai-infra/verl/
+    help: /ai-infra/verl/guide.html
+  - name: FastDeploy
+    url: /ai-infra/fastdeploy/
+    help: /ai-infra/fastdeploy/guide.html
+  - name: KTransformers
+    url: /ai-infra/ktransformers/
+    help: /ai-infra/ktransformers/guide.html
+  - name: llama-cpp-python
+    url: /ai-infra/llama-cpp-python/
+    help: /ai-infra/llama-cpp-python/guide.html
+  - name: LMDeploy
+    url: /ai-infra/lmdeploy/
+    help: /ai-infra/lmdeploy/guide.html
+  - name: MLC LLM
+    url: /ai-infra/mlc-llm/
+  - name: ncnn
+    url: /ai-infra/ncnn/
+    help: /ai-infra/ncnn/guide.html
+  - name: OpenVINO
+    url: /ai-infra/openvino/
+    help: /ai-infra/openvino/guide.html
+  - name: vLLM Ascend
+    url: /ai-infra/vllm-ascend/
+    help: /ai-infra/vllm-ascend/guide.html
+  - name: Safetensors
+    url: /ai-infra/safetensors/
+    help: /ai-infra/safetensors/guide.html
+  - name: SentencePiece
+    url: /ai-infra/sentencepiece/
+    help: /ai-infra/sentencepiece/guide.html
+  - name: Tokenizers
+    url: /ai-infra/tokenizers/
+    help: /ai-infra/tokenizers/guide.html
+  - name: XGrammar
+    url: /ai-infra/xgrammar/
+    help: /ai-infra/xgrammar/guide.html
+  - name: Burn
+    url: /ai-infra/burn/
+    help: /ai-infra/burn/guide.html
+  - name: JAX
+    url: /ai-infra/jax/
+    help: /ai-infra/jax/guide.html
+  - name: MLX
+    url: /ai-infra/mlx/
+    help: /ai-infra/mlx/guide.html
+  - name: TensorFlow
+    url: /ai-infra/tensorflow/
+    help: /ai-infra/tensorflow/guide.html
+  - name: ONNX
+    url: /ai-infra/onnx/
+    help: /ai-infra/onnx/guide.html
+  - name: Apache TVM
+    url: /ai-infra/tvm/
+    help: /ai-infra/tvm/guide.html
+  - name: Helion
+    url: /ai-infra/helion/
+    help: /ai-infra/helion/guide.html
+  - name: MIGraphX
+    url: /ai-infra/migraphx/
+    help: /ai-infra/migraphx/guide.html
+  - name: OpenXLA XLA
+    url: /ai-infra/openxla-xla/
+  - name: StableHLO
+    url: /ai-infra/stablehlo/
+    help: /ai-infra/stablehlo/guide.html
+  - name: Gloo
+    url: /ai-infra/gloo/
+  - name: MSCCL++
+    url: /ai-infra/mscclpp/
+    help: /ai-infra/mscclpp/guide.html
+  - name: NCCL
+    url: /ai-infra/nccl/
+    help: /ai-infra/nccl/guide.html
+  - name: oneCCL
+    url: /ai-infra/oneccl/
+    help: /ai-infra/oneccl/guide.html
+  - name: BentoML
+    url: /ai-infra/bentoml/
+    help: /ai-infra/bentoml/guide.html
+  - name: KServe
+    url: /ai-infra/kserve/
+    help: /ai-infra/kserve/guide.html
+  - name: NVIDIA Dynamo
+    url: /ai-infra/dynamo/
+    help: /ai-infra/dynamo/guide.html
+  - name: Ray
+    url: /ai-infra/ray/
+    help: /ai-infra/ray/guide.html
+  - name: Triton Inference Server
+    url: /ai-infra/triton-inference-server/
+    help: /ai-infra/triton-inference-server/guide.html
+  - name: Xinference
+    url: /ai-infra/xinference/
+    help: /ai-infra/xinference/guide.html
+  - name: bitsandbytes
+    url: /ai-infra/bitsandbytes/
+    help: /ai-infra/bitsandbytes/guide.html
+  - name: GPTQModel
+    url: /ai-infra/gptqmodel/
+    help: /ai-infra/gptqmodel/guide.html
+  - name: HQQ
+    url: /ai-infra/hqq/
+    help: /ai-infra/hqq/guide.html
+  - name: Intel Neural Compressor
+    url: /ai-infra/neural-compressor/
+    help: /ai-infra/neural-compressor/guide.html
+  - name: LLM Compressor
+    url: /ai-infra/llm-compressor/
+    help: /ai-infra/llm-compressor/guide.html
+  - name: NVIDIA Model Optimizer
+    url: /ai-infra/model-optimizer/
+    help: /ai-infra/model-optimizer/guide.html
+  - name: Optimum Quanto
+    url: /ai-infra/optimum-quanto/
+    help: /ai-infra/optimum-quanto/guide.html
+  - name: TorchAO
+    url: /ai-infra/torchao/
+    help: /ai-infra/torchao/guide.html
+  - name: Kimi · MoonshotAI
+    url: /ai-infra/moonshotai/
+  - name: Qwen
+    url: /ai-infra/qwenlm/
+  - name: GLM · Z.ai
+    url: /ai-infra/zai-org/
+ai-apps:
+  title: AI 应用
+  entries:
+  - name: OpenCode
+    url: /ai-apps/opencode/
+    help: /ai-apps/opencode/guide.html
+  - name: goose
+    url: /ai-apps/goose/
+    help: /ai-apps/goose/guide.html
+  - name: Codex CLI
+    url: /ai-apps/codex-cli/
+    help: /ai-apps/codex-cli/guide.html
+  - name: Cline
+    url: /ai-apps/cline/
+    help: /ai-apps/cline/guide.html
+  - name: Continue
+    url: /ai-apps/continue/
+    help: /ai-apps/continue/guide.html
+ai-infra/deepseek-ai:
+  title: DeepSeek
+  entries:
+  - name: DeepGEMM
+    url: /ai-infra/deepseek-ai/deepgemm/
+    help: /ai-infra/deepseek-ai/deepgemm/guide.html
+  - name: DeepGEMM-Ascend
+    url: /ai-infra/deepseek-ai/deepgemm-ascend/
+  - name: DeepSelect
+    url: /ai-infra/deepseek-ai/deepselect/
+  - name: FlashMLA
+    url: /ai-infra/deepseek-ai/flashmla/
+  - name: TileKernels
+    url: /ai-infra/deepseek-ai/tilekernels/
+  - name: chat-demo
+    url: /ai-infra/deepseek-ai/chat-demo/
+  - name: deepseek-harness
+    url: /ai-infra/deepseek-ai/deepseek-harness/
+  - name: DeepSeek-V3.2-Exp
+    url: /ai-infra/deepseek-ai/deepseek-v3-2-exp/
+  - name: dsh-node-addon-require-builtin
+    url: /ai-infra/deepseek-ai/dsh-node-addon-require-builtin/
+  - name: dsh-superagent-prototype
+    url: /ai-infra/deepseek-ai/dsh-superagent-prototype/
+  - name: EPLB
+    url: /ai-infra/deepseek-ai/eplb/
+  - name: LPLB
+    url: /ai-infra/deepseek-ai/lplb/
+  parent: /ai-infra/
+ai-infra/moonshotai:
+  title: Kimi · MoonshotAI
+  entries:
+  - name: kimi-cli
+    url: /ai-infra/moonshotai/kimi-cli/
+  - name: kimi-code
+    url: /ai-infra/moonshotai/kimi-code/
+  - name: kimi-code-zed-extension
+    url: /ai-infra/moonshotai/kimi-code-zed-extension/
+  - name: koishi-plugin-moonshot-api
+    url: /ai-infra/moonshotai/koishi-plugin-moonshot-api/
+  - name: nano-kpu
+    url: /ai-infra/moonshotai/nano-kpu/
+  parent: /ai-infra/
+ai-infra/qwenlm:
+  title: Qwen
+  entries:
+  - name: ConsisEval
+    url: /ai-infra/qwenlm/consiseval/
+  - name: Qwen-Drive-1.0
+    url: /ai-infra/qwenlm/qwen-drive-1-0/
+  - name: Qwen-MM-Plugins
+    url: /ai-infra/qwenlm/qwen-mm-plugins/
+  - name: qwen-mm-plugins-hub
+    url: /ai-infra/qwenlm/qwen-mm-plugins-hub/
+  - name: Qwen3-ASR
+    url: /ai-infra/qwenlm/qwen3-asr/
+  - name: Qwen3-VL
+    url: /ai-infra/qwenlm/qwen3-vl/
+  - name: Qwen3.8
+    url: /ai-infra/qwenlm/qwen3-8/
+  - name: QwQ
+    url: /ai-infra/qwenlm/qwq/
+  - name: Self-Lengthen
+    url: /ai-infra/qwenlm/self-lengthen/
+  parent: /ai-infra/
+ai-infra/zai-org:
+  title: GLM · Z.ai
+  entries:
+  - name: GLM-iprompt
+    url: /ai-infra/zai-org/glm-iprompt/
+  - name: CogVideo
+    url: /ai-infra/zai-org/cogvideo/
+  - name: CogView2
+    url: /ai-infra/zai-org/cogview2/
+  - name: GLM-4-Voice
+    url: /ai-infra/zai-org/glm-4-voice/
+  - name: GLM-OCR
+    url: /ai-infra/zai-org/glm-ocr/
+  - name: GLM-skills
+    url: /ai-infra/zai-org/glm-skills/
+  - name: SCAIL
+    url: /ai-infra/zai-org/scail/
+  - name: SCAIL-2
+    url: /ai-infra/zai-org/scail-2/
+  - name: SurveyReview
+    url: /ai-infra/zai-org/surveyreview/
+  - name: zai-coding-plugins
+    url: /ai-infra/zai-org/zai-coding-plugins/
+  - name: ZCode
+    url: /ai-infra/zai-org/zcode/
+  - name: zcode-plugins
+    url: /ai-infra/zai-org/zcode-plugins/
+  parent: /ai-infra/

@@ -1,0 +1,9 @@
+_: Spack 镜像使用帮助
+title: Spack
+summary: Spack · 编译构建及部署，官方源码 Release 与配方仓库 Git 镜像
+mirrorid: spack
+path: hpc/spack
+directory: hpc
+permalink: /hpc/spack/guide.html
+block:
+- index

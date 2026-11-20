@@ -1,0 +1,9 @@
+_: ROMS 镜像使用帮助
+title: ROMS
+summary: ROMS 区域海洋模型的官方 Git 分支、标签与提交历史
+mirrorid: roms
+path: scientific/roms
+directory: scientific
+permalink: /scientific/roms/
+block:
+- index

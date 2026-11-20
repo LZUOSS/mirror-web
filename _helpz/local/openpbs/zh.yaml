@@ -1,0 +1,9 @@
+_: OpenPBS 镜像使用帮助
+title: OpenPBS
+summary: OpenPBS · 调度与集群环境，官方稳定源码发行
+mirrorid: openpbs
+path: hpc/openpbs
+directory: hpc
+permalink: /hpc/openpbs/guide.html
+block:
+- index

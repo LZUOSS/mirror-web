@@ -1,0 +1,9 @@
+_: libevent 镜像使用帮助
+title: libevent
+summary: libevent · MPI 与通信，稳定官方 Release 作者源码附件
+mirrorid: libevent
+path: hpc/libevent
+directory: hpc
+permalink: /hpc/libevent/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: SeisSol 镜像使用帮助
+title: SeisSol
+summary: SeisSol 地震波模拟程序的官方 Git 分支、标签与提交历史
+mirrorid: seissol
+path: scientific/seissol
+directory: scientific
+permalink: /scientific/seissol/
+block:
+- index

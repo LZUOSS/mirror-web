@@ -1,0 +1,9 @@
+_: heFFTe 镜像使用帮助
+title: heFFTe
+summary: heFFTe · FFT 与通用数值，官方稳定源码发行
+mirrorid: heffte
+path: hpc/heffte
+directory: hpc
+permalink: /hpc/heffte/guide.html
+block:
+- index

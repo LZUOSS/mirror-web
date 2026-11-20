@@ -1,0 +1,9 @@
+_: GPU4PySCF 镜像使用帮助
+title: GPU4PySCF
+summary: GPU4PySCF · 分子模拟与材料，官方版本化源码发行
+mirrorid: gpu4pyscf
+path: scientific/gpu4pyscf
+directory: scientific
+permalink: /scientific/gpu4pyscf/guide.html
+block:
+- index

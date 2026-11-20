@@ -1,0 +1,9 @@
+_: OpenFOAM OpenCFD 镜像使用帮助
+title: OpenFOAM OpenCFD
+summary: OpenCFD 的 OpenFOAM 官方源码归档及随版校验
+mirrorid: openfoam-opencfd
+path: scientific/openfoam-opencfd
+directory: scientific
+permalink: /scientific/openfoam-opencfd/guide.html
+block:
+- index

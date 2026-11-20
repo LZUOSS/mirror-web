@@ -1,0 +1,9 @@
+_: spdlog 镜像使用帮助
+title: spdlog
+summary: spdlog · 编译构建及部署，官方稳定源码标签发行
+mirrorid: spdlog
+path: hpc/spdlog
+directory: hpc
+permalink: /hpc/spdlog/guide.html
+block:
+- index

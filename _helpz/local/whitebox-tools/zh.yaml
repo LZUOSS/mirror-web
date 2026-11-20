@@ -1,0 +1,9 @@
+_: WhiteboxTools 镜像使用帮助
+title: WhiteboxTools
+summary: WhiteboxTools · 地学地理与水文，官方源码及多平台发行附件
+mirrorid: whitebox-tools
+path: scientific/whitebox-tools
+directory: scientific
+permalink: /scientific/whitebox-tools/guide.html
+block:
+- index

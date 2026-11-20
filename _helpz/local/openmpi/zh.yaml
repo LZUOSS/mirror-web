@@ -1,0 +1,9 @@
+_: Open MPI 镜像使用帮助
+title: Open MPI
+summary: Open MPI · MPI 与通信，官方稳定源码发行
+mirrorid: openmpi
+path: hpc/openmpi
+directory: hpc
+permalink: /hpc/openmpi/guide.html
+block:
+- index

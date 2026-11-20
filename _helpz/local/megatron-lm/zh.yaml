@@ -1,0 +1,9 @@
+_: Megatron-LM / Megatron Core 镜像使用帮助
+title: Megatron-LM / Megatron Core
+summary: Megatron-LM / Megatron Core · 分布式训练，上游稳定源码发行镜像
+mirrorid: megatron-lm
+path: ai-infra/megatron-lm
+directory: ai-infra
+permalink: /ai-infra/megatron-lm/guide.html
+block:
+- index

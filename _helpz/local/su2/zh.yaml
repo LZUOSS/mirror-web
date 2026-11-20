@@ -1,0 +1,9 @@
+_: SU2 镜像使用帮助
+title: SU2
+summary: SU2 · 流体与多物理场，官方源码及多平台发行附件
+mirrorid: su2
+path: scientific/su2
+directory: scientific
+permalink: /scientific/su2/guide.html
+block:
+- index

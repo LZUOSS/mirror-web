@@ -1,0 +1,9 @@
+_: KissFFT 镜像使用帮助
+title: KissFFT
+summary: KissFFT · FFT 与通用数值，官方稳定源码标签发行
+mirrorid: kissfft
+path: hpc/kissfft
+directory: hpc
+permalink: /hpc/kissfft/guide.html
+block:
+- index

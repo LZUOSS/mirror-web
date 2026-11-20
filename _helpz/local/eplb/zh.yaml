@@ -1,0 +1,9 @@
+_: EPLB 镜像使用帮助
+title: EPLB
+summary: EPLB · DeepSeek，官方 Git 源码、公开分支与标签
+mirrorid: eplb
+path: ai-infra/deepseek-ai/eplb
+directory: ai-infra/deepseek-ai
+permalink: /ai-infra/deepseek-ai/eplb/
+block:
+- index

@@ -1,0 +1,9 @@
+_: Scotch / PT-Scotch 镜像使用帮助
+title: Scotch / PT-Scotch
+summary: Scotch / PT-Scotch · 排列、网格及离散，官方稳定源码发行
+mirrorid: scotch
+path: hpc/scotch
+directory: hpc
+permalink: /hpc/scotch/guide.html
+block:
+- index

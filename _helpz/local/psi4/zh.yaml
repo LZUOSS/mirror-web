@@ -1,0 +1,9 @@
+_: Psi4 镜像使用帮助
+title: Psi4
+summary: Psi4 · 分子模拟与材料，官方版本化源码发行
+mirrorid: psi4
+path: scientific/psi4
+directory: scientific
+permalink: /scientific/psi4/guide.html
+block:
+- index

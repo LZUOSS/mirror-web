@@ -1,0 +1,9 @@
+_: PETSc 镜像使用帮助
+title: PETSc
+summary: PETSc · 线性代数与求解器，官方稳定源码发行
+mirrorid: petsc
+path: hpc/petsc
+directory: hpc
+permalink: /hpc/petsc/guide.html
+block:
+- index

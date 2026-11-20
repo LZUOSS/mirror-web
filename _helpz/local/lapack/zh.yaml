@@ -1,0 +1,9 @@
+_: LAPACK 镜像使用帮助
+title: LAPACK
+summary: LAPACK · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: lapack
+path: hpc/lapack
+directory: hpc
+permalink: /hpc/lapack/guide.html
+block:
+- index

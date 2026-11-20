@@ -1,0 +1,9 @@
+_: GRASS GIS 镜像使用帮助
+title: GRASS GIS
+summary: GRASS GIS · 地学地理与水文，官方源码及多平台发行附件
+mirrorid: grass-gis
+path: scientific/grass-gis
+directory: scientific
+permalink: /scientific/grass-gis/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: goose 镜像使用帮助
+title: goose
+summary: goose · AI 编程 CLI，官方稳定 Release 的 CLI 与桌面二进制及配套校验
+mirrorid: goose
+path: ai-apps/goose
+directory: ai-apps
+permalink: /ai-apps/goose/guide.html
+block:
+- index

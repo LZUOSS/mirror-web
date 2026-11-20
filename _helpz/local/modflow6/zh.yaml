@@ -1,0 +1,9 @@
+_: MODFLOW 6 镜像使用帮助
+title: MODFLOW 6
+summary: MODFLOW 6 · 地学地理与水文，官方多平台程序发行附件
+mirrorid: modflow6
+path: scientific/modflow6
+directory: scientific
+permalink: /scientific/modflow6/guide.html
+block:
+- index

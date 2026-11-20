@@ -1,0 +1,9 @@
+_: Intel Neural Compressor 镜像使用帮助
+title: Intel Neural Compressor
+summary: Intel Neural Compressor · 量化与低精度，上游稳定源码发行镜像
+mirrorid: neural-compressor
+path: ai-infra/neural-compressor
+directory: ai-infra
+permalink: /ai-infra/neural-compressor/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: LMDeploy 镜像使用帮助
+title: LMDeploy
+summary: LMDeploy · 推理引擎，上游稳定源码与官方发行附件
+mirrorid: lmdeploy
+path: ai-infra/lmdeploy
+directory: ai-infra
+permalink: /ai-infra/lmdeploy/guide.html
+block:
+- index

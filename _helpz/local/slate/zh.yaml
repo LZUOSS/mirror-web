@@ -1,0 +1,9 @@
+_: SLATE 镜像使用帮助
+title: SLATE
+summary: SLATE · 线性代数与求解器，稳定官方 Release 作者源码附件
+mirrorid: slate
+path: hpc/slate
+directory: hpc
+permalink: /hpc/slate/guide.html
+block:
+- index

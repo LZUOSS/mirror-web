@@ -1,0 +1,9 @@
+_: GCHP 镜像使用帮助
+title: GCHP
+summary: GEOS-Chem High Performance 的官方 Git 分支、标签与提交历史
+mirrorid: geos-chem-gchp
+path: scientific/geos-chem-gchp
+directory: scientific
+permalink: /scientific/geos-chem-gchp/
+block:
+- index

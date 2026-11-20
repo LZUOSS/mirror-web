@@ -1,0 +1,9 @@
+_: GASNet-EX 镜像使用帮助
+title: GASNet-EX
+summary: GASNet-EX · MPI 与通信，官方稳定源码发行
+mirrorid: gasnet-ex
+path: hpc/gasnet-ex
+directory: hpc
+permalink: /hpc/gasnet-ex/guide.html
+block:
+- index

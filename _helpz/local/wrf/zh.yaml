@@ -1,0 +1,9 @@
+_: WRF 镜像使用帮助
+title: WRF
+summary: WRF 区域天气研究与预报模式的正式源码发行
+mirrorid: wrf
+path: scientific/wrf
+directory: scientific
+permalink: /scientific/wrf/guide.html
+block:
+- index

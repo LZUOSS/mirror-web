@@ -1,0 +1,9 @@
+_: GeographicLib 镜像使用帮助
+title: GeographicLib
+summary: GeographicLib · 排列、网格及离散，官方稳定源码发行
+mirrorid: geographiclib
+path: hpc/geographiclib
+directory: hpc
+permalink: /hpc/geographiclib/guide.html
+block:
+- index

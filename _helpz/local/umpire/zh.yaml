@@ -1,0 +1,9 @@
+_: Umpire 镜像使用帮助
+title: Umpire
+summary: Umpire · 编译构建及部署，稳定官方 Release 作者源码附件
+mirrorid: umpire
+path: hpc/umpire
+directory: hpc
+permalink: /hpc/umpire/guide.html
+block:
+- index

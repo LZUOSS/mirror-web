@@ -1,0 +1,9 @@
+_: code_saturne 镜像使用帮助
+title: code_saturne
+summary: code_saturne · 流体与多物理场，官方版本化源码发行
+mirrorid: code-saturne
+path: scientific/code-saturne
+directory: scientific
+permalink: /scientific/code-saturne/guide.html
+block:
+- index

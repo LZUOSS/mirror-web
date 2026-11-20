@@ -1,0 +1,9 @@
+_: KServe 镜像使用帮助
+title: KServe
+summary: KServe · 部署与资源，官方稳定源码及部署发布附件
+mirrorid: kserve
+path: ai-infra/kserve
+directory: ai-infra
+permalink: /ai-infra/kserve/guide.html
+block:
+- index

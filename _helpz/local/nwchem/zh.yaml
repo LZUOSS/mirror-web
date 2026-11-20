@@ -1,0 +1,9 @@
+_: NWChem 镜像使用帮助
+title: NWChem
+summary: NWChem · 分子模拟与材料，官方版本化源码发行
+mirrorid: nwchem
+path: scientific/nwchem
+directory: scientific
+permalink: /scientific/nwchem/guide.html
+block:
+- index

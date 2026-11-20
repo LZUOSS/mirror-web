@@ -1,0 +1,9 @@
+_: yaml-cpp 镜像使用帮助
+title: yaml-cpp
+summary: yaml-cpp · 编译构建及部署，官方稳定源码标签发行
+mirrorid: yaml-cpp
+path: hpc/yaml-cpp
+directory: hpc
+permalink: /hpc/yaml-cpp/guide.html
+block:
+- index

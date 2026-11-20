@@ -1,0 +1,9 @@
+_: FlashInfer 镜像使用帮助
+title: FlashInfer
+summary: FlashInfer · Attention 与缓存，官方正式 wheel 与专用索引工件
+mirrorid: flashinfer
+path: ai-infra/flashinfer
+directory: ai-infra
+permalink: /ai-infra/flashinfer/guide.html
+block:
+- index

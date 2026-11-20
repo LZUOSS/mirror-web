@@ -1,0 +1,9 @@
+_: Qwen3-VL 镜像使用帮助
+title: Qwen3-VL
+summary: Qwen3-VL · Qwen，官方 Git 源码、公开分支与标签
+mirrorid: qwen3-vl
+path: ai-infra/qwenlm/qwen3-vl
+directory: ai-infra/qwenlm
+permalink: /ai-infra/qwenlm/qwen3-vl/
+block:
+- index

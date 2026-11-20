@@ -1,0 +1,9 @@
+_: HDF4 镜像使用帮助
+title: HDF4
+summary: HDF4 · 文件格式及数据 I/O，稳定官方 Release 作者源码附件
+mirrorid: hdf4
+path: hpc/hdf4
+directory: hpc
+permalink: /hpc/hdf4/guide.html
+block:
+- index

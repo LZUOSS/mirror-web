@@ -1,0 +1,9 @@
+_: PROJ 镜像使用帮助
+title: PROJ
+summary: PROJ · 排列、网格及离散，官方稳定源码发行
+mirrorid: proj
+path: hpc/proj
+directory: hpc
+permalink: /hpc/proj/guide.html
+block:
+- index

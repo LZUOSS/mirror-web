@@ -1,0 +1,9 @@
+_: PLUMED 镜像使用帮助
+title: PLUMED
+summary: PLUMED 1.x 和 2.x 的正式源码发行
+mirrorid: plumed
+path: scientific/plumed
+directory: scientific
+permalink: /scientific/plumed/guide.html
+block:
+- index

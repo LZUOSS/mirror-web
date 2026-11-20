@@ -1,0 +1,9 @@
+_: MITgcm 镜像使用帮助
+title: MITgcm
+summary: MITgcm · 气象气候与海洋，官方 Git 源码、公开分支与标签
+mirrorid: mitgcm
+path: scientific/mitgcm
+directory: scientific
+permalink: /scientific/mitgcm/
+block:
+- index

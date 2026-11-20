@@ -1,0 +1,9 @@
+_: LPLB 镜像使用帮助
+title: LPLB
+summary: LPLB · DeepSeek，官方 Git 源码、公开分支与标签
+mirrorid: lplb
+path: ai-infra/deepseek-ai/lplb
+directory: ai-infra/deepseek-ai
+permalink: /ai-infra/deepseek-ai/lplb/
+block:
+- index

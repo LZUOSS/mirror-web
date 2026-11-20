@@ -1,0 +1,9 @@
+_: METplus 镜像使用帮助
+title: METplus
+summary: METplus · 气象数据处理，官方版本化源码发行
+mirrorid: metplus
+path: scientific/metplus
+directory: scientific
+permalink: /scientific/metplus/guide.html
+block:
+- index

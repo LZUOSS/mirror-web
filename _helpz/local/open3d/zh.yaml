@@ -1,0 +1,9 @@
+_: Open3D 镜像使用帮助
+title: Open3D
+summary: Open3D · 网格与可视化，官方源码和多平台原生发行，PyPI 实件去重
+mirrorid: open3d
+path: scientific/open3d
+directory: scientific
+permalink: /scientific/open3d/guide.html
+block:
+- index

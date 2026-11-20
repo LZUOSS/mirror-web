@@ -1,0 +1,9 @@
+_: ADIOS2 镜像使用帮助
+title: ADIOS2
+summary: ADIOS2 · 文件格式及数据 I/O，官方稳定源码标签发行
+mirrorid: adios2
+path: hpc/adios2
+directory: hpc
+permalink: /hpc/adios2/guide.html
+block:
+- index

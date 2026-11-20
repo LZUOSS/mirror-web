@@ -1,0 +1,9 @@
+_: Enzo-E 镜像使用帮助
+title: Enzo-E
+summary: Enzo-E · 其他科研应用，官方 Git 源码、公开分支与标签
+mirrorid: enzo-e
+path: scientific/enzo-e
+directory: scientific
+permalink: /scientific/enzo-e/
+block:
+- index

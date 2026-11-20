@@ -1,0 +1,9 @@
+_: oneDNN 镜像使用帮助
+title: oneDNN
+summary: oneDNN · GEMM 与算子，上游稳定源码与官方发行附件
+mirrorid: one-dnn
+path: ai-infra/one-dnn
+directory: ai-infra
+permalink: /ai-infra/one-dnn/guide.html
+block:
+- index

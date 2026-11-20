@@ -1,0 +1,9 @@
+_: Slurm 镜像使用帮助
+title: Slurm
+summary: Slurm · 调度与集群环境，官方稳定源码发行
+mirrorid: slurm
+path: hpc/slurm
+directory: hpc
+permalink: /hpc/slurm/guide.html
+block:
+- index

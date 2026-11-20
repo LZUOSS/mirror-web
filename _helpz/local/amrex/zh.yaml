@@ -1,0 +1,9 @@
+_: AMReX 镜像使用帮助
+title: AMReX
+summary: AMReX · 排列、网格及离散，全部稳定版本的官方源码归档及校验
+mirrorid: amrex
+path: hpc/amrex
+directory: hpc
+permalink: /hpc/amrex/guide.html
+block:
+- index

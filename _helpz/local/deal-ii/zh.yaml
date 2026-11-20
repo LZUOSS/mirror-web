@@ -1,0 +1,9 @@
+_: deal.II 镜像使用帮助
+title: deal.II
+summary: deal.II · 排列、网格及离散，稳定官方 Release 作者源码附件
+mirrorid: deal-ii
+path: hpc/deal-ii
+directory: hpc
+permalink: /hpc/deal-ii/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: NGSolve 镜像使用帮助
+title: NGSolve
+summary: NGSolve · 网格与可视化，官方源码及多平台发行附件
+mirrorid: ngsolve
+path: scientific/ngsolve
+directory: scientific
+permalink: /scientific/ngsolve/guide.html
+block:
+- index

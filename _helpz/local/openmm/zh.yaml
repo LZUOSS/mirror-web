@@ -1,0 +1,9 @@
+_: OpenMM 镜像使用帮助
+title: OpenMM
+summary: OpenMM · 分子模拟与材料，官方版本化源码发行
+mirrorid: openmm
+path: scientific/openmm
+directory: scientific
+permalink: /scientific/openmm/guide.html
+block:
+- index

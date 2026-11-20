@@ -1,0 +1,9 @@
+_: C-Blosc2 镜像使用帮助
+title: C-Blosc2
+summary: C-Blosc2 · 文件格式及数据 I/O，官方稳定源码标签发行
+mirrorid: c-blosc2
+path: hpc/c-blosc2
+directory: hpc
+permalink: /hpc/c-blosc2/guide.html
+block:
+- index

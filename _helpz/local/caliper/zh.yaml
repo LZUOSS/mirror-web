@@ -1,0 +1,9 @@
+_: Caliper 镜像使用帮助
+title: Caliper
+summary: Caliper · 性能分析与基准，官方稳定源码发行
+mirrorid: caliper
+path: hpc/caliper
+directory: hpc
+permalink: /hpc/caliper/guide.html
+block:
+- index

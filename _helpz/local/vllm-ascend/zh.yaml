@@ -1,0 +1,9 @@
+_: vLLM Ascend 镜像使用帮助
+title: vLLM Ascend
+summary: vLLM Ascend · 推理引擎，上游稳定源码与官方发行附件
+mirrorid: vllm-ascend
+path: ai-infra/vllm-ascend
+directory: ai-infra
+permalink: /ai-infra/vllm-ascend/guide.html
+block:
+- index

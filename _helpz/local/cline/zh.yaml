@@ -1,0 +1,9 @@
+_: Cline 镜像使用帮助
+title: Cline
+summary: Cline · AI 编程扩展，编辑器扩展官方 Release VSIX 镜像
+mirrorid: cline
+path: ai-apps/cline
+directory: ai-apps
+permalink: /ai-apps/cline/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: CGAL 镜像使用帮助
+title: CGAL
+summary: CGAL · 排列、网格及离散，官方稳定源码发行
+mirrorid: cgal
+path: hpc/cgal
+directory: hpc
+permalink: /hpc/cgal/guide.html
+block:
+- index

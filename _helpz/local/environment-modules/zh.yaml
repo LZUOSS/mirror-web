@@ -1,0 +1,9 @@
+_: Environment Modules 镜像使用帮助
+title: Environment Modules
+summary: Environment Modules · 调度与集群环境，官方稳定源码发行
+mirrorid: environment-modules
+path: hpc/environment-modules
+directory: hpc
+permalink: /hpc/environment-modules/guide.html
+block:
+- index

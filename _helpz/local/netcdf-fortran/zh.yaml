@@ -1,0 +1,9 @@
+_: NetCDF-Fortran 镜像使用帮助
+title: NetCDF-Fortran
+summary: NetCDF-Fortran · 文件格式及数据 I/O，Unidata 官方稳定源码发行
+mirrorid: netcdf-fortran
+path: hpc/netcdf-fortran
+directory: hpc
+permalink: /hpc/netcdf-fortran/guide.html
+block:
+- index

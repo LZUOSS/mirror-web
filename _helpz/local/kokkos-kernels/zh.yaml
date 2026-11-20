@@ -1,0 +1,9 @@
+_: Kokkos Kernels 镜像使用帮助
+title: Kokkos Kernels
+summary: Kokkos Kernels · 编译构建及部署，全部稳定版本的官方源码归档及校验
+mirrorid: kokkos-kernels
+path: hpc/kokkos-kernels
+directory: hpc
+permalink: /hpc/kokkos-kernels/guide.html
+block:
+- index

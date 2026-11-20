@@ -1,0 +1,9 @@
+_: MPICH 镜像使用帮助
+title: MPICH
+summary: MPICH · MPI 与通信，稳定官方 Release 作者源码附件
+mirrorid: mpich
+path: hpc/mpich
+directory: hpc
+permalink: /hpc/mpich/guide.html
+block:
+- index

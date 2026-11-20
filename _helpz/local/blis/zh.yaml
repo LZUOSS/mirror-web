@@ -1,0 +1,9 @@
+_: BLIS 镜像使用帮助
+title: BLIS
+summary: BLIS · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: blis
+path: hpc/blis
+directory: hpc
+permalink: /hpc/blis/guide.html
+block:
+- index

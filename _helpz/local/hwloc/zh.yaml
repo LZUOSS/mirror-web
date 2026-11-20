@@ -1,0 +1,9 @@
+_: hwloc 镜像使用帮助
+title: hwloc
+summary: hwloc · MPI 与通信，官方站稳定源码发行
+mirrorid: hwloc
+path: hpc/hwloc
+directory: hpc
+permalink: /hpc/hwloc/guide.html
+block:
+- index

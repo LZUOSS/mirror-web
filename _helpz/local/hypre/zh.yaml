@@ -1,0 +1,9 @@
+_: hypre 镜像使用帮助
+title: hypre
+summary: hypre · 线性代数与求解器，官方稳定源码标签发行
+mirrorid: hypre
+path: hpc/hypre
+directory: hpc
+permalink: /hpc/hypre/guide.html
+block:
+- index

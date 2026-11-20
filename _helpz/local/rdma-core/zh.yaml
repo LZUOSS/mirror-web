@@ -1,0 +1,9 @@
+_: rdma-core 镜像使用帮助
+title: rdma-core
+summary: rdma-core · MPI 与通信，官方稳定源码发行
+mirrorid: rdma-core
+path: hpc/rdma-core
+directory: hpc
+permalink: /hpc/rdma-core/guide.html
+block:
+- index

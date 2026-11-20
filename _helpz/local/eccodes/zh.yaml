@@ -1,0 +1,9 @@
+_: ecCodes 镜像使用帮助
+title: ecCodes
+summary: ecCodes · 气象数据处理，官方版本化源码发行
+mirrorid: eccodes
+path: scientific/eccodes
+directory: scientific
+permalink: /scientific/eccodes/guide.html
+block:
+- index

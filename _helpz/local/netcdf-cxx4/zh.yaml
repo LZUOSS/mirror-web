@@ -1,0 +1,9 @@
+_: NetCDF-CXX4 镜像使用帮助
+title: NetCDF-CXX4
+summary: NetCDF-CXX4 · 文件格式及数据 I/O，官方稳定源码标签发行
+mirrorid: netcdf-cxx4
+path: hpc/netcdf-cxx4
+directory: hpc
+permalink: /hpc/netcdf-cxx4/guide.html
+block:
+- index

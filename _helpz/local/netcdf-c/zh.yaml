@@ -1,0 +1,9 @@
+_: NetCDF-C 镜像使用帮助
+title: NetCDF-C
+summary: NetCDF-C · 文件格式及数据 I/O，Unidata 官方稳定源码发行
+mirrorid: netcdf-c
+path: hpc/netcdf-c
+directory: hpc
+permalink: /hpc/netcdf-c/guide.html
+block:
+- index

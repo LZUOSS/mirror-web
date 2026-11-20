@@ -1,0 +1,9 @@
+_: Continue 镜像使用帮助
+title: Continue
+summary: Continue · AI 编程扩展，Continue 官方 VSIX／公开扩展渠道
+mirrorid: continue
+path: ai-apps/continue
+directory: ai-apps
+permalink: /ai-apps/continue/guide.html
+block:
+- index

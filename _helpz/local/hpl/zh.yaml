@@ -1,0 +1,9 @@
+_: HPL 镜像使用帮助
+title: HPL
+summary: Netlib HPL 高性能 LINPACK 基准源码及完整历史发行
+mirrorid: hpl
+path: hpc/hpl
+directory: hpc
+permalink: /hpc/hpl/guide.html
+block:
+- index

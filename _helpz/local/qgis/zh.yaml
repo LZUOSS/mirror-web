@@ -1,0 +1,9 @@
+_: QGIS 镜像使用帮助
+title: QGIS
+summary: QGIS · 地学地理与水文，官方源码及多平台发行附件
+mirrorid: qgis
+path: scientific/qgis
+directory: scientific
+permalink: /scientific/qgis/guide.html
+block:
+- index

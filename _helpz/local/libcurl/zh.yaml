@@ -1,0 +1,9 @@
+_: curl / libcurl 镜像使用帮助
+title: curl / libcurl
+summary: curl / libcurl · 文件格式及数据 I/O，官方稳定源码发行
+mirrorid: libcurl
+path: hpc/libcurl
+directory: hpc
+permalink: /hpc/libcurl/guide.html
+block:
+- index

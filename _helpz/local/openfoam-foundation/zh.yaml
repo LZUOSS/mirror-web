@@ -1,0 +1,9 @@
+_: OpenFOAM Foundation 镜像使用帮助
+title: OpenFOAM Foundation
+summary: OpenFOAM Foundation 官方源码、正式版本和维护补丁
+mirrorid: openfoam-foundation
+path: scientific/openfoam-foundation
+directory: scientific
+permalink: /scientific/openfoam-foundation/guide.html
+block:
+- index

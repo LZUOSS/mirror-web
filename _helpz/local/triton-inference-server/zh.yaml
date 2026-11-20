@@ -1,0 +1,9 @@
+_: Triton Inference Server 镜像使用帮助
+title: Triton Inference Server
+summary: Triton Inference Server · 部署与资源，官方稳定源码与公开开发附件
+mirrorid: triton-inference-server
+path: ai-infra/triton-inference-server
+directory: ai-infra
+permalink: /ai-infra/triton-inference-server/guide.html
+block:
+- index

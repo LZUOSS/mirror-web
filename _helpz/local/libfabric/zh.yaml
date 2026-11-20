@@ -1,0 +1,9 @@
+_: libfabric 镜像使用帮助
+title: libfabric
+summary: libfabric · MPI 与通信，稳定官方 Release 作者源码附件
+mirrorid: libfabric
+path: hpc/libfabric
+directory: hpc
+permalink: /hpc/libfabric/guide.html
+block:
+- index

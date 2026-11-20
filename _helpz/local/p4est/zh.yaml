@@ -1,0 +1,9 @@
+_: p4est 镜像使用帮助
+title: p4est
+summary: p4est · 排列、网格及离散，官方稳定源码发行
+mirrorid: p4est
+path: hpc/p4est
+directory: hpc
+permalink: /hpc/p4est/guide.html
+block:
+- index

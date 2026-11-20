@@ -1,0 +1,9 @@
+_: libuv 镜像使用帮助
+title: libuv
+summary: libuv · MPI 与通信，官方稳定源码发行
+mirrorid: libuv
+path: hpc/libuv
+directory: hpc
+permalink: /hpc/libuv/guide.html
+block:
+- index

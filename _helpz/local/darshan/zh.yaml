@@ -1,0 +1,9 @@
+_: Darshan 镜像使用帮助
+title: Darshan
+summary: Darshan · 文件格式及数据 I/O，稳定官方 Release 作者源码附件
+mirrorid: darshan
+path: hpc/darshan
+directory: hpc
+permalink: /hpc/darshan/guide.html
+block:
+- index

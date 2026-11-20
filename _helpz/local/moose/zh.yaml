@@ -1,0 +1,9 @@
+_: MOOSE 镜像使用帮助
+title: MOOSE
+summary: MOOSE · 流体与多物理场，官方 Git 源码、公开分支与标签
+mirrorid: moose
+path: scientific/moose
+directory: scientific
+permalink: /scientific/moose/
+block:
+- index

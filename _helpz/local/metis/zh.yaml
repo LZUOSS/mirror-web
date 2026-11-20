@@ -1,0 +1,9 @@
+_: METIS 镜像使用帮助
+title: METIS
+summary: METIS · 排列、网格及离散，官方稳定源码标签发行
+mirrorid: metis
+path: hpc/metis
+directory: hpc
+permalink: /hpc/metis/guide.html
+block:
+- index

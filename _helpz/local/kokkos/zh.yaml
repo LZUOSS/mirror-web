@@ -1,0 +1,9 @@
+_: Kokkos 镜像使用帮助
+title: Kokkos
+summary: Kokkos · 编译构建及部署，全部稳定版本的官方源码归档及校验
+mirrorid: kokkos
+path: hpc/kokkos
+directory: hpc
+permalink: /hpc/kokkos/guide.html
+block:
+- index

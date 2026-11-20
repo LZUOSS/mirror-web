@@ -1,0 +1,9 @@
+_: veRL 镜像使用帮助
+title: veRL
+summary: veRL · 分布式训练，上游稳定源码发行镜像
+mirrorid: verl
+path: ai-infra/verl
+directory: ai-infra
+permalink: /ai-infra/verl/guide.html
+block:
+- index

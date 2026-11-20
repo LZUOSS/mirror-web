@@ -1,0 +1,9 @@
+_: Netgen 镜像使用帮助
+title: Netgen
+summary: Netgen · 网格与可视化，官方源码及多平台发行附件
+mirrorid: netgen
+path: scientific/netgen
+directory: scientific
+permalink: /scientific/netgen/guide.html
+block:
+- index

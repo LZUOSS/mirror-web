@@ -1,0 +1,9 @@
+_: llama-cpp-python 镜像使用帮助
+title: llama-cpp-python
+summary: llama-cpp-python · 推理引擎，上游稳定源码和项目专用安装索引
+mirrorid: llama-cpp-python
+path: ai-infra/llama-cpp-python
+directory: ai-infra
+permalink: /ai-infra/llama-cpp-python/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: pybind11 镜像使用帮助
+title: pybind11
+summary: pybind11 · 编译构建及部署，官方稳定源码标签发行
+mirrorid: pybind11
+path: hpc/pybind11
+directory: hpc
+permalink: /hpc/pybind11/guide.html
+block:
+- index

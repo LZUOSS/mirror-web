@@ -1,0 +1,9 @@
+_: Eigen 镜像使用帮助
+title: Eigen
+summary: Eigen · 线性代数与求解器，官方稳定源码发行
+mirrorid: eigen
+path: hpc/eigen
+directory: hpc
+permalink: /hpc/eigen/guide.html
+block:
+- index

@@ -1,0 +1,9 @@
+_: Xinference 镜像使用帮助
+title: Xinference
+summary: Xinference · 部署与资源，上游稳定源码发行镜像
+mirrorid: xinference
+path: ai-infra/xinference
+directory: ai-infra
+permalink: /ai-infra/xinference/guide.html
+block:
+- index

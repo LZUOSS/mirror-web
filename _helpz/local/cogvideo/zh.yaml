@@ -1,0 +1,9 @@
+_: CogVideo 镜像使用帮助
+title: CogVideo
+summary: CogVideo · GLM · Z.ai，官方 Git 源码、公开分支与标签
+mirrorid: cogvideo
+path: ai-infra/zai-org/cogvideo
+directory: ai-infra/zai-org
+permalink: /ai-infra/zai-org/cogvideo/
+block:
+- index

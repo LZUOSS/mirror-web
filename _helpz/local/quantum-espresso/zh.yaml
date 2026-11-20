@@ -1,0 +1,9 @@
+_: Quantum ESPRESSO 镜像使用帮助
+title: Quantum ESPRESSO
+summary: 材料模拟软件 Quantum ESPRESSO 的正式版本主仓源码包
+mirrorid: quantum-espresso
+path: scientific/quantum-espresso
+directory: scientific
+permalink: /scientific/quantum-espresso/guide.html
+block:
+- index

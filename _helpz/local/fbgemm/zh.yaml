@@ -1,0 +1,9 @@
+_: FBGEMM 镜像使用帮助
+title: FBGEMM
+summary: FBGEMM · GEMM 与算子，上游稳定源码与官方发行附件
+mirrorid: fbgemm
+path: ai-infra/fbgemm
+directory: ai-infra
+permalink: /ai-infra/fbgemm/guide.html
+block:
+- index

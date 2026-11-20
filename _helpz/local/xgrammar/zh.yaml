@@ -1,0 +1,9 @@
+_: XGrammar 镜像使用帮助
+title: XGrammar
+summary: XGrammar · 推理插件与格式，上游稳定源码与官方发行附件
+mirrorid: xgrammar
+path: ai-infra/xgrammar
+directory: ai-infra
+permalink: /ai-infra/xgrammar/guide.html
+block:
+- index

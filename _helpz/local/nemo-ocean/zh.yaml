@@ -1,0 +1,9 @@
+_: NEMO 镜像使用帮助
+title: NEMO
+summary: NEMO 海洋模型的官方 Git 分支、标签与提交历史
+mirrorid: nemo-ocean
+path: scientific/nemo-ocean
+directory: scientific
+permalink: /scientific/nemo-ocean/
+block:
+- index
