@@ -259,7 +259,7 @@ enablePages.forEach((page) => {
   mdContent.push(`{% raw %}`);
   mdContent.push(`# ${conf["_"]}\n`);
   let inputCounter = 0;
-  if (!conf.retired) {
+  if (!conf.retired && !conf.download_pending) {
     mdContent.push(
       renderZForm(-1, Object.keys(globalVars), globalVars, () => inputCounter++) +
         "\n",

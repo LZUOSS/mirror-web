@@ -36,7 +36,7 @@ jsEntry: help
         <div class="help-links d-flex flex-wrap align-items-center gap-3 mb-3">
           <a href="/help/">全部使用帮助</a>
           {% if directory %}<a href="/{{ directory }}/">{{ site.data.software_mirrors[directory].title | escape }}</a>{% endif %}
-          {% unless page.zconf.retired %}<a href="/{{ page.zconf.path | default: page.zconf.name }}/">浏览文件</a>{% endunless %}
+          {% unless page.zconf.retired or page.zconf.download_pending %}<a href="/{{ page.zconf.path | default: page.zconf.name }}/">浏览文件</a>{% endunless %}
           {% if page.zconf.mirrorz_id and site.hide_mirrorz != true %}<a href="{{ site.mirrorz_help_link }}{{ page.zconf.mirrorz_id }}/">MirrorZ 帮助 ↗</a>{% endif %}
         </div>
 				{% unless directory %}
