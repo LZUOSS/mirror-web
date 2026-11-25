@@ -937,6 +937,38 @@ mirror_desc:
   desc: ZCode · GLM · Z.ai，官方 Git 源码、公开分支与标签
 - name: zcode-plugins
   desc: zcode-plugins · GLM · Z.ai，官方 Git 源码、公开分支与标签
+- name: AOSP
+  desc: Android 开源项目（AOSP）的官方 manifest 与仓库快照
+- name: armbian-releases
+  desc: Armbian 的发行镜像与构建产物（dl.armbian.com）
+- name: brew.git
+  desc: Homebrew 的 formula 仓库（brew.git）
+- name: crates.io-index
+  desc: Cargo 注册表索引（crates.io 的全量 git 索引）
+- name: homebrew-cask.git
+  desc: Homebrew Cask 的应用仓库（homebrew-cask.git）
+- name: homebrew-core.git
+  desc: Homebrew 核心 formula 仓库（homebrew-core.git）
+- name: libnvidia-container
+  desc: NVIDIA 容器运行时工具与软件包
+- name: msys2
+  desc: MSYS2 的 pacman 软件仓库与安装镜像
+- name: nginx
+  desc: nginx 官方软件包仓库（RHEL、Debian 系）
+- name: paddlepaddle
+  desc: 飞桨（PaddlePaddle）的官方源码与发行包
+- name: rustup
+  desc: Rust 工具链的离线安装包与更新元数据
+- name: vllm
+  desc: vLLM 的官方源码与发行包
+- name: wireshark
+  desc: Wireshark 的源码与各平台安装包
+- name: zsh-autocomplete
+  desc: zsh 补全插件：基于历史命令的实时补全
+- name: zsh-autosuggestions
+  desc: zsh 插件：根据历史记录提示补全
+- name: zsh-syntax-highlighting
+  desc: zsh 插件：命令行语法高亮
 new_mirrors: []
 unlisted_mirrors:
 - link_to: sourceware
